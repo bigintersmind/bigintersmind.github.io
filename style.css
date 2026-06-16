@@ -71,3 +71,66 @@ h1 {
 .btn:hover {
   background-color: var(--primary-hover);
 }
+
+/* Projects */
+.projects {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid #ebebeb;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  text-align: left;
+}
+
+#projects-heading {
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #555;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+
+.project-card:hover {
+  border-color: var(--primary-color);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transform: translateY(-2px);
+}
+
+.project-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.project-name {
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.project-action {
+  color: var(--primary-color);
+  font-weight: 500;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.project-desc {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #555;
+}

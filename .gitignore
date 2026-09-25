@@ -1,0 +1,9 @@
+# Design-review captures, decision-page logs and per-machine settings from the Impeccable workflow
+.impeccable/review/
+.impeccable/questions/
+.impeccable/config.local.json
+
+# Browser-automation scratch files
+.playwright-mcp/
+
+.DS_Store

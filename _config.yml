@@ -1,0 +1,5 @@
+# GitHub Pages builds this repo with Jekyll. Keep the project docs off the public site.
+exclude:
+  - README.md
+  - PRODUCT.md
+  - DESIGN.md

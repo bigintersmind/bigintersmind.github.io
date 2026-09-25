@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-25T16:48:28+00:00",
+  "title": "Design System: Ivan Lay",
+  "extensions": {
+    "colorMeta": {
+      "safety-yellow": {
+        "role": "primary",
+        "displayName": "Safety Yellow",
+        "canonical": "#F2C230",
+        "tonalRamp": [
+          "oklch(15.0% 0.158 89.0)",
+          "oklch(26.4% 0.158 89.0)",
+          "oklch(37.9% 0.158 89.0)",
+          "oklch(49.3% 0.158 89.0)",
+          "oklch(60.7% 0.158 89.0)",
+          "oklch(72.1% 0.158 89.0)",
+          "oklch(83.6% 0.158 89.0)",
+          "oklch(95.0% 0.158 89.0)"
+        ]
+      },
+      "paint-black": {
+        "role": "neutral",
+        "displayName": "Paint Black",
+        "canonical": "#1C1C1A",
+        "tonalRamp": [
+          "oklch(15.0% 0.004 106.7)",
+          "oklch(26.4% 0.004 106.7)",
+          "oklch(37.9% 0.004 106.7)",
+          "oklch(49.3% 0.004 106.7)",
+          "oklch(60.7% 0.004 106.7)",
+          "oklch(72.1% 0.004 106.7)",
+          "oklch(83.6% 0.004 106.7)",
+          "oklch(95.0% 0.004 106.7)"
+        ]
+      },
+      "laminate-white": {
+        "role": "neutral",
+        "displayName": "Laminate White",
+        "canonical": "#FBFAF6",
+        "tonalRamp": [
+          "oklch(15.0% 0.005 95.1)",
+          "oklch(26.4% 0.005 95.1)",
+          "oklch(37.9% 0.005 95.1)",
+          "oklch(49.3% 0.005 95.1)",
+          "oklch(60.7% 0.005 95.1)",
+          "oklch(72.1% 0.005 95.1)",
+          "oklch(83.6% 0.005 95.1)",
+          "oklch(95.0% 0.005 95.1)"
+        ]
+      },
+      "live-red": {
+        "role": "secondary",
+        "displayName": "Live Red",
+        "canonical": "#C8372D",
+        "tonalRamp": [
+          "oklch(15.0% 0.160 28.5)",
+          "oklch(26.4% 0.160 28.5)",
+          "oklch(37.9% 0.160 28.5)",
+          "oklch(49.3% 0.160 28.5)",
+          "oklch(60.7% 0.160 28.5)",
+          "oklch(72.1% 0.160 28.5)",
+          "oklch(83.6% 0.160 28.5)",
+          "oklch(95.0% 0.160 28.5)"
+        ]
+      },
+      "live-ink": {
+        "role": "secondary",
+        "displayName": "Live Ink",
+        "canonical": "#FFFFFF",
+        "tonalRamp": [
+          "oklch(15.0% 0.000 89.9)",
+          "oklch(26.4% 0.000 89.9)",
+          "oklch(37.9% 0.000 89.9)",
+          "oklch(49.3% 0.000 89.9)",
+          "oklch(60.7% 0.000 89.9)",
+          "oklch(72.1% 0.000 89.9)",
+          "oklch(83.6% 0.000 89.9)",
+          "oklch(95.0% 0.000 89.9)"
+        ]
+      },
+      "board-umber": {
+        "role": "neutral",
+        "displayName": "Board Umber",
+        "canonical": "#3A3113",
+        "tonalRamp": [
+          "oklch(15.0% 0.047 92.8)",
+          "oklch(26.4% 0.047 92.8)",
+          "oklch(37.9% 0.047 92.8)",
+          "oklch(49.3% 0.047 92.8)",
+          "oklch(60.7% 0.047 92.8)",
+          "oklch(72.1% 0.047 92.8)",
+          "oklch(83.6% 0.047 92.8)",
+          "oklch(95.0% 0.047 92.8)"
+        ]
+      },
+      "foam-black": {
+        "role": "neutral",
+        "displayName": "Foam Black",
+        "canonical": "#1B1C1A",
+        "tonalRamp": [
+          "oklch(15.0% 0.004 128.7)",
+          "oklch(26.4% 0.004 128.7)",
+          "oklch(37.9% 0.004 128.7)",
+          "oklch(49.3% 0.004 128.7)",
+          "oklch(60.7% 0.004 128.7)",
+          "oklch(72.1% 0.004 128.7)",
+          "oklch(83.6% 0.004 128.7)",
+          "oklch(95.0% 0.004 128.7)"
+        ]
+      },
+      "foam-ink": {
+        "role": "neutral",
+        "displayName": "Foam Ink",
+        "canonical": "#ECE8DC",
+        "tonalRamp": [
+          "oklch(15.0% 0.017 91.6)",
+          "oklch(26.4% 0.017 91.6)",
+          "oklch(37.9% 0.017 91.6)",
+          "oklch(49.3% 0.017 91.6)",
+          "oklch(60.7% 0.017 91.6)",
+          "oklch(72.1% 0.017 91.6)",
+          "oklch(83.6% 0.017 91.6)",
+          "oklch(95.0% 0.017 91.6)"
+        ]
+      },
+      "foam-ink-soft": {
+        "role": "neutral",
+        "displayName": "Foam Ink Soft",
+        "canonical": "#C2BBA7",
+        "tonalRamp": [
+          "oklch(15.0% 0.029 90.9)",
+          "oklch(26.4% 0.029 90.9)",
+          "oklch(37.9% 0.029 90.9)",
+          "oklch(49.3% 0.029 90.9)",
+          "oklch(60.7% 0.029 90.9)",
+          "oklch(72.1% 0.029 90.9)",
+          "oklch(83.6% 0.029 90.9)",
+          "oklch(95.0% 0.029 90.9)"
+        ]
+      },
+      "live-red-foam": {
+        "role": "secondary",
+        "displayName": "Live Red, Foam",
+        "canonical": "#D23D31",
+        "tonalRamp": [
+          "oklch(15.0% 0.160 28.8)",
+          "oklch(26.4% 0.160 28.8)",
+          "oklch(37.9% 0.160 28.8)",
+          "oklch(49.3% 0.160 28.8)",
+          "oklch(60.7% 0.160 28.8)",
+          "oklch(72.1% 0.160 28.8)",
+          "oklch(83.6% 0.160 28.8)",
+          "oklch(95.0% 0.160 28.8)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display (painted)",
+        "purpose": "The owner's name only."
+      },
+      "headline": {
+        "displayName": "Headline (printed)",
+        "purpose": "The one-sentence pitch."
+      },
+      "title": {
+        "displayName": "Title (painted)",
+        "purpose": "Section headings painted on the board."
+      },
+      "pocket-label": {
+        "displayName": "Pocket Label (painted)",
+        "purpose": "Tool names inside the silhouette, fixed 2rem strip."
+      },
+      "location-code": {
+        "displayName": "Location Code (painted)",
+        "purpose": "A1, A2... on the pocket floor, revealed on lift."
+      },
+      "body": {
+        "displayName": "Body (printed)",
+        "purpose": "Bio copy, max 34em."
+      },
+      "body-small": {
+        "displayName": "Body Small (printed)",
+        "purpose": "Tool descriptions, max 34ch, board-umber ink."
+      },
+      "label": {
+        "displayName": "Tape Label (printed)",
+        "purpose": "Label-maker tape: titles and actions."
+      },
+      "button": {
+        "displayName": "Live Plate (printed)",
+        "purpose": "The single primary action."
+      }
+    },
+    "schemes": {
+      "dark": {
+        "name": "Two-layer tool foam",
+        "media": "(prefers-color-scheme: dark)",
+        "map": {
+          "board": "foam-black",
+          "pocket": "safety-yellow",
+          "on-pocket": "foam-black",
+          "engrave": "safety-yellow",
+          "ink": "foam-ink",
+          "ink-soft": "foam-ink-soft",
+          "live": "live-red-foam",
+          "laminate": "laminate-white (unchanged)"
+        }
+      }
+    },
+    "shadows": [
+      {
+        "name": "rest",
+        "value": "0 1px 2px rgb(28 28 26 / 0.3)",
+        "purpose": "A plate hanging flush on its hook. Foam: rgb(0 0 0 / 0.4)."
+      },
+      {
+        "name": "lift",
+        "value": "0 12px 16px -12px rgb(28 28 26 / 0.45), 0 2px 4px rgb(28 28 26 / 0.18)",
+        "purpose": "A plate lifted off its hook. Foam: black at 0.7 / 0.3."
+      },
+      {
+        "name": "tape",
+        "value": "0 1px 1px rgb(28 28 26 / 0.22)",
+        "purpose": "Label tape stuck to the board."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "All gravity motion."
+      },
+      {
+        "name": "lift",
+        "value": "transform: translateY(-24px) rotate(var(--swing)); 0.5s ease-out",
+        "purpose": "Hover/focus on a hung plate (hover-capable pointers only). Swing roughly ±0.7° to ±1.6°, alternating across neighbours."
+      },
+      {
+        "name": "settle",
+        "value": "from translateY(-16px) rotate(var(--swing)); 0.75s ease-out; delay calc(var(--i) * 80ms + 150ms)",
+        "purpose": "Plates drop into their outlines once on load."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "pocket background -> live red, 0.2s ease-out",
+        "purpose": "Replaces lift and settle under prefers-reduced-motion: reduce."
+      },
+      {
+        "name": "tape-hover",
+        "value": "color 0.2s ease-out",
+        "purpose": "Action tape text turns live red."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "single-column",
+        "value": "68rem",
+        "purpose": "Board collapses to one 46rem column; pocket-pad 20px."
+      },
+      {
+        "name": "narrow",
+        "value": "40rem",
+        "purpose": "One tool per row; card steps stack; pocket-pad 16px; body 1rem."
+      },
+      {
+        "name": "tiny",
+        "value": "22rem",
+        "purpose": "Photo stacks above name."
+      }
+    ],
+    "focus": {
+      "value": "outline: 3px solid var(--live); outline-offset: 6px; border-radius: 16px",
+      "purpose": "Every link; the ring follows the pocket curve."
+    }
+  },
+  "components": [
+    {
+      "name": "Pocket with Hung Plate",
+      "kind": "custom",
+      "refersTo": "pocket",
+      "description": "The signature: a painted silhouette with hook, slot outline, location code and a laminated plate that lifts and swings on hover or focus.",
+      "html": "<a class=\"ds-tool\" href=\"#\"><span class=\"ds-pocket\" style=\"width:280px\"><span class=\"ds-slot\"><span class=\"ds-hook\"></span><span class=\"ds-code\">A1</span><span class=\"ds-plate\"><span style=\"display:block;aspect-ratio:3/2;background:#2a2540;border-radius:2px\"></span></span></span><span class=\"ds-label\">DiceWars JS</span></span></a>",
+      "css": ":host{--board:#F2C230;--pocket:#1C1C1A;--on-pocket:#F2C230;--laminate:#FBFAF6;--paint:#1C1C1A;--live:#C8372D;--live-ink:#FFFFFF;--rest:0 1px 2px rgb(28 28 26 / 0.3);--lift:0 12px 16px -12px rgb(28 28 26 / 0.45), 0 2px 4px rgb(28 28 26 / 0.18);--font-paint:'Big Shoulders Stencil','Arial Narrow',sans-serif;--font-print:'Archivo',system-ui,sans-serif;--ease-out:cubic-bezier(0.16, 1, 0.3, 1);--pocket-pad:24px}.ds-pocket{display:block;background:var(--pocket);border-radius:16px;padding:var(--pocket-pad) var(--pocket-pad) 12px}.ds-slot{position:relative;display:block}.ds-slot::before{content:'';position:absolute;inset:3px 3px 9px;border:2px solid var(--on-pocket);border-radius:5px}.ds-code{position:absolute;left:50%;bottom:2px;transform:translateX(-50%);padding:0 6px;background:var(--pocket);color:var(--on-pocket);font:800 1rem/1 var(--font-paint);letter-spacing:.08em}.ds-hook{position:absolute;left:50%;top:calc(7px - var(--pocket-pad));width:10px;height:calc(var(--pocket-pad) - 7px);transform:translateX(-50%)}.ds-hook::before,.ds-hook::after{content:'';position:absolute;left:50%;transform:translateX(-50%);background:var(--on-pocket)}.ds-hook::before{top:0;width:10px;height:10px;border-radius:50%}.ds-hook::after{top:6px;bottom:0;width:3px}.ds-label{display:block;height:2rem;padding:.7rem 0 0;color:var(--on-pocket);font:800 1.3rem/1 var(--font-paint);letter-spacing:.02em;text-transform:uppercase}.ds-plate{position:relative;z-index:1;display:block;background:var(--laminate);border-radius:5px;padding:6px;box-shadow:var(--rest);transform-origin:50% 0;transition:transform .5s var(--ease-out),box-shadow .5s var(--ease-out)}.ds-tool:hover .ds-plate,.ds-tool:focus-visible .ds-plate{transform:translateY(-24px) rotate(-1.4deg);box-shadow:var(--lift)}.ds-tool{display:inline-block;color:inherit;text-decoration:none}.ds-tool:focus-visible{outline:3px solid var(--live);outline-offset:6px;border-radius:16px}"
+    },
+    {
+      "name": "Label-Maker Tape",
+      "kind": "chip",
+      "refersTo": "tape",
+      "description": "White tape with condensed black caps for titles and tool actions; action tapes turn red on hover.",
+      "html": "<span class=\"ds-tape\">Support Operations Manager</span> <a class=\"ds-tape ds-tape--action\" href=\"#\">Play <svg class=\"ds-icon\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M4.5 11.5 11.5 4.5M5.75 4.5h5.75v5.75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.9\" stroke-linecap=\"square\"/></svg></a>",
+      "css": ":host{--board:#F2C230;--pocket:#1C1C1A;--on-pocket:#F2C230;--laminate:#FBFAF6;--paint:#1C1C1A;--live:#C8372D;--live-ink:#FFFFFF;--rest:0 1px 2px rgb(28 28 26 / 0.3);--lift:0 12px 16px -12px rgb(28 28 26 / 0.45), 0 2px 4px rgb(28 28 26 / 0.18);--font-paint:'Big Shoulders Stencil','Arial Narrow',sans-serif;--font-print:'Archivo',system-ui,sans-serif;--ease-out:cubic-bezier(0.16, 1, 0.3, 1);--pocket-pad:24px}.ds-tape{display:inline-flex;align-items:center;gap:.45em;background:var(--laminate);color:var(--paint);font-family:var(--font-print);font-stretch:75%;font-weight:650;font-size:.78rem;line-height:1.2;letter-spacing:.08em;text-transform:uppercase;padding:.34em .7em .3em;border-radius:1px;box-shadow:0 1px 1px rgb(28 28 26 / .22);white-space:nowrap}.ds-icon{width:.95em;height:.95em;flex:none}.ds-tape--action{font-size:.8rem;text-decoration:none;transition:color .2s ease-out}.ds-tape--action:hover{color:var(--live)}.ds-tape--action:focus-visible{outline:3px solid var(--live);outline-offset:6px}"
+    },
+    {
+      "name": "Live Plate (Primary Button)",
+      "kind": "button",
+      "refersTo": "plate-live",
+      "description": "The single red element: the primary exit, hung in a compact black pocket.",
+      "html": "<a class=\"ds-cta\" href=\"#\"><span class=\"ds-plate ds-live\">Connect on LinkedIn <svg class=\"ds-icon\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M4.5 11.5 11.5 4.5M5.75 4.5h5.75v5.75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.9\" stroke-linecap=\"square\"/></svg></span></a>",
+      "css": ":host{--board:#F2C230;--pocket:#1C1C1A;--on-pocket:#F2C230;--laminate:#FBFAF6;--paint:#1C1C1A;--live:#C8372D;--live-ink:#FFFFFF;--rest:0 1px 2px rgb(28 28 26 / 0.3);--lift:0 12px 16px -12px rgb(28 28 26 / 0.45), 0 2px 4px rgb(28 28 26 / 0.18);--font-paint:'Big Shoulders Stencil','Arial Narrow',sans-serif;--font-print:'Archivo',system-ui,sans-serif;--ease-out:cubic-bezier(0.16, 1, 0.3, 1);--pocket-pad:24px}.ds-plate{position:relative;z-index:1;display:block;background:var(--laminate);border-radius:5px;padding:6px;box-shadow:var(--rest);transform-origin:50% 0;transition:transform .5s var(--ease-out),box-shadow .5s var(--ease-out)}.ds-cta{display:inline-block;background:var(--pocket);border-radius:11px;padding:9px;text-decoration:none}.ds-live{display:flex;align-items:center;gap:.7rem;background:var(--live);color:var(--live-ink);padding:1rem 1.4rem .95rem;border-radius:4px;font-family:var(--font-print);font-stretch:75%;font-weight:750;font-size:1.05rem;line-height:1;letter-spacing:.07em;text-transform:uppercase}.ds-icon{width:.95em;height:.95em}.ds-cta:hover .ds-plate,.ds-cta:focus-visible .ds-plate{transform:translateY(-24px) rotate(-1deg);box-shadow:var(--lift)}.ds-cta:focus-visible{outline:3px solid var(--live);outline-offset:6px;border-radius:16px}"
+    },
+    {
+      "name": "Standard-Work Card",
+      "kind": "card",
+      "refersTo": "plate-card",
+      "description": "A laminated work-instruction sheet for a tool that is a process: ruled header, numbered steps with stencil numerals.",
+      "html": "<div class=\"ds-card\"><span class=\"ds-card__head\">Standard work</span><ol class=\"ds-steps\"><li><b>spec</b><span>Stress-test the idea</span></li><li><b>prd</b><span>Write it up</span></li><li><b>issues</b><span>Cut grabbable tickets</span></li></ol></div>",
+      "css": ":host{--board:#F2C230;--pocket:#1C1C1A;--on-pocket:#F2C230;--laminate:#FBFAF6;--paint:#1C1C1A;--live:#C8372D;--live-ink:#FFFFFF;--rest:0 1px 2px rgb(28 28 26 / 0.3);--lift:0 12px 16px -12px rgb(28 28 26 / 0.45), 0 2px 4px rgb(28 28 26 / 0.18);--font-paint:'Big Shoulders Stencil','Arial Narrow',sans-serif;--font-print:'Archivo',system-ui,sans-serif;--ease-out:cubic-bezier(0.16, 1, 0.3, 1);--pocket-pad:24px}.ds-card{background:var(--laminate);color:var(--paint);border-radius:5px;overflow:hidden;box-shadow:var(--rest);font-family:var(--font-print);max-width:520px}.ds-card__head{display:block;margin:.75rem .9rem 0;padding-bottom:.45rem;border-bottom:2px solid var(--paint);font-stretch:75%;font-weight:700;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase}.ds-steps{list-style:none;margin:0;padding:0;counter-reset:step;display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}.ds-steps li{counter-increment:step;display:flex;flex-direction:column;gap:.2rem;padding:.65rem .8rem .75rem;font-size:.84rem;line-height:1.3;color:#45463F}.ds-steps li+li{border-left:1px solid #D9D6CB}.ds-steps li::before{content:counter(step);font:800 1.45rem/1 var(--font-paint);color:var(--paint);margin-bottom:.2rem}.ds-steps b{font-stretch:87.5%;font-weight:750;font-size:.95rem;color:var(--paint)}"
+    },
+    {
+      "name": "Painted Name",
+      "kind": "custom",
+      "refersTo": "display",
+      "description": "The owner's name stenciled on the board at display scale, one word per line.",
+      "html": "<h1 class=\"ds-name\"><span>Ivan</span><span>Lay</span></h1>",
+      "css": ":host{--board:#F2C230;--pocket:#1C1C1A;--on-pocket:#F2C230;--laminate:#FBFAF6;--paint:#1C1C1A;--live:#C8372D;--live-ink:#FFFFFF;--rest:0 1px 2px rgb(28 28 26 / 0.3);--lift:0 12px 16px -12px rgb(28 28 26 / 0.45), 0 2px 4px rgb(28 28 26 / 0.18);--font-paint:'Big Shoulders Stencil','Arial Narrow',sans-serif;--font-print:'Archivo',system-ui,sans-serif;--ease-out:cubic-bezier(0.16, 1, 0.3, 1);--pocket-pad:24px}.ds-name{margin:0;font-family:var(--font-paint);font-weight:800;font-size:clamp(3.5rem,1.6rem + 4.6vw,6rem);line-height:.86;letter-spacing:.01em;text-transform:uppercase;color:#1C1C1A}.ds-name span{display:block}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Shadow Board",
+    "overview": "The page is a lean-manufacturing 5S shadow board: a drenched safety-yellow painted board where every object hangs from its own peg inside a paint-black silhouette cut a hand's width larger than the object. Nothing floats in space; everything has a painted home, and the home is visible the moment the object leaves it. The board says \"this person keeps a tidy shop and makes real tools\" without a single adjective.\n\nTwo material registers divide every surface. Anything **painted on the board** (the name, section headings, pocket labels, location codes, step numerals) is stencil lettering. Anything **printed and mounted** (headline, bio, label-maker tape, laminated plates, cards) is Archivo. In the dark scheme the board becomes two-layer tool foam: a black top layer with yellow showing through every cut pocket, so the same silhouettes read as cut-outs instead of paint.\n\nMotion obeys gravity only. Objects settle onto their hooks once on load, lift off with a small swing when hovered or focused, and fall back. Nothing slides, fades, or scrolls into view. The board rejects gradients, glass, icon tiles, and the centered avatar-bio-button-card stack.",
+    "keyCharacteristics": [
+      "One flat, saturated field color with no gradient or texture.",
+      "Paint-black silhouettes with generous 16px corners hold every object.",
+      "Two type registers: stencil for paint, Archivo for print, never mixed within one object.",
+      "White laminate and label tape are the only light surfaces on the board.",
+      "One red, reserved for the live element and live states.",
+      "Gravity-only motion: hang, settle, lift."
+    ],
+    "rules": [
+      {
+        "name": "The One Red Rule",
+        "body": "Red marks the live element and live states only: the primary exit, hover on an action, focus. Never decoration, never a second accent, never a heading.",
+        "section": "colors"
+      },
+      {
+        "name": "The Paint-Through Rule",
+        "body": "Lettering inside a silhouette is always the board color showing through (`--on-pocket`), never white or grey. In the foam scheme the roles swap together: yellow pockets, black lettering.",
+        "section": "colors"
+      },
+      {
+        "name": "The Laminate Never Inverts Rule",
+        "body": "Printed objects (plates, tape, cards) keep white stock and black ink in both schemes. Only the board and its paint change.",
+        "section": "colors"
+      },
+      {
+        "name": "The Paint or Print Rule",
+        "body": "Ask of every piece of text: is it painted on the board or printed and mounted? Painted is Big Shoulders Stencil 800, uppercase. Printed is Archivo. There is no third face and no stencil body copy.",
+        "section": "typography"
+      },
+      {
+        "name": "The Squeeze, Don't Swap Rule",
+        "body": "Condensed Archivo comes from `font-stretch` (75% for tape and plates, 87.5% for the headline), not from a separate condensed family.",
+        "section": "typography"
+      },
+      {
+        "name": "The Hand's Width Rule",
+        "body": "Every silhouette is the object plus a fixed painted margin (`pocket-pad`: 24px, 20px at ≤68rem, 16px at ≤40rem) on top and sides, with the label strip below. The margin also sizes the hook, which spans exactly from the pocket's top edge to the plate.",
+        "section": "layout"
+      },
+      {
+        "name": "The Gravity Rule",
+        "body": "Shadows answer to gravity: they appear only under a hung or stuck object and lengthen only when that object is lifted. No ambient glows, no floating cards at rest, no hard offset shadows.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Soft Cut, Hard Object Rule",
+        "body": "The cut or painted home is round; the object in it is almost square. Never round a plate to match its pocket.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** give every new object its own pocket, slot, hook, and location code, continuing the sequence (A4, A5…).",
+      "**Do** decide paint or print before setting any text: Big Shoulders Stencil 800 uppercase if painted on the board, Archivo if printed.",
+      "**Do** keep red to the one live plate, hover on actions, and the 3px focus ring (6px offset).",
+      "**Do** keep laminated plates and tape white with black ink in both schemes.",
+      "**Do** keep all motion as gravity: settle, lift (-24px with swing), fall back; swap it for a red pocket under reduced motion.",
+      "**Do** recompute the rack column split whenever a screenshot's aspect ratio changes, so paired plates share one height."
+    ],
+    "donts": [
+      "**Don't** use gradients, glass, or textures on the board, or add any accent beyond the yellow and the one red.",
+      "**Don't** put icons in tiles or badges. The only icon is a small inline outbound arrow on tape and the live plate.",
+      "**Don't** float cards or add shadows to silhouettes, text, or the board. Only hung plates and stuck tape cast shadows.",
+      "**Don't** slide, fade, or scroll-animate anything in.",
+      "**Don't** set body copy, descriptions, or buttons in the stencil face, or set painted names and headings in Archivo.",
+      "**Don't** fall back to the centered avatar, bio, button, and project-card stack."
+    ]
+  }
+}

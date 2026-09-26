@@ -1,17 +1,15 @@
 ---
 name: Ivan Lay
-description: A lean-ops shadow board. Every tool Ivan built hangs in its own painted outline.
+description: A lean-ops shadow board cut as two-layer tool foam. Every tool Ivan built hangs in its own cut pocket.
 colors:
   safety-yellow: "#F2C230"
   paint-black: "#1C1C1A"
   laminate-white: "#FBFAF6"
-  live-red: "#C8372D"
+  live-red: "#D23D31"
   live-ink: "#FFFFFF"
-  board-umber: "#3A3113"
   foam-black: "#1B1C1A"
   foam-ink: "#ECE8DC"
   foam-ink-soft: "#C2BBA7"
-  live-red-foam: "#D23D31"
 typography:
   display:
     fontFamily: "'Big Shoulders Stencil', 'Arial Narrow', sans-serif"
@@ -84,8 +82,8 @@ spacing:
   rack-gap: "clamp(1.25rem, 2.2vw, 2rem)"
 components:
   pocket:
-    backgroundColor: "{colors.paint-black}"
-    textColor: "{colors.safety-yellow}"
+    backgroundColor: "{colors.safety-yellow}"
+    textColor: "{colors.foam-black}"
     rounded: "{rounded.pocket}"
     padding: "24px 24px 12px"
   plate:
@@ -102,7 +100,7 @@ components:
     backgroundColor: "{colors.laminate-white}"
     textColor: "{colors.live-red}"
   pocket-cta:
-    backgroundColor: "{colors.paint-black}"
+    backgroundColor: "{colors.safety-yellow}"
     rounded: "{rounded.pocket-sm}"
     padding: "9px"
   plate-live:
@@ -124,15 +122,15 @@ components:
 
 **Creative North Star: "The Shadow Board"**
 
-The page is a lean-manufacturing 5S shadow board: a drenched safety-yellow painted board where every object hangs from its own peg inside a paint-black silhouette cut a hand's width larger than the object. Nothing floats in space; everything has a painted home, and the home is visible the moment the object leaves it. The board says "this person keeps a tidy shop and makes real tools" without a single adjective.
+The page is a lean-manufacturing 5S shadow board cut as two-layer tool foam: a black top layer where every object hangs from its own peg inside a pocket cut a hand's width larger than the object, with safety yellow showing through every cut. Nothing floats in space; everything has a cut home, and the home is visible the moment the object leaves it. The board says "this person keeps a tidy shop and makes real tools" without a single adjective.
 
-Two material registers divide every surface. Anything **painted on the board** (the name, section headings, pocket labels, location codes, step numerals) is stencil lettering. Anything **printed and mounted** (headline, bio, label-maker tape, laminated plates, cards) is Archivo. In the dark scheme the board becomes two-layer tool foam: a black top layer with yellow showing through every cut pocket, so the same silhouettes read as cut-outs instead of paint.
+Two material registers divide every surface. Anything **painted on the board** (the name, section headings, pocket labels, location codes, step numerals) is stencil lettering. Anything **printed and mounted** (headline, bio, label-maker tape, laminated plates, cards) is Archivo. The silhouettes are cut-outs, not painted outlines: the yellow under-layer is the pocket, and anything painted inside it is the black of the foam.
 
 Motion obeys gravity only. Objects settle onto their hooks once on load, lift off with a small swing when hovered or focused, and fall back. Nothing slides, fades, or scrolls into view. The board rejects gradients, glass, icon tiles, and the centered avatar-bio-button-card stack.
 
 **Key Characteristics:**
-- One flat, saturated field color with no gradient or texture.
-- Paint-black silhouettes with generous 16px corners hold every object.
+- A flat foam-black field with no gradient or texture.
+- Safety-yellow cut pockets with generous 16px corners hold every object.
 - Two type registers: stencil for paint, Archivo for print, never mixed within one object.
 - White laminate and label tape are the only light surfaces on the board.
 - One red, reserved for the live element and live states.
@@ -140,28 +138,27 @@ Motion obeys gravity only. Objects settle onto their hooks once on load, lift of
 
 ## Colors
 
-A single saturated industrial yellow does almost all the work, with paint black for silhouettes and lettering, white for anything printed, and one reserved red.
+The board is foam black. Safety yellow is the accent that marks every pocket and the lettering painted on the board, with white for anything printed and one reserved red.
 
 ### Primary
-- **Safety Yellow** (`safety-yellow`): The painted board in light scheme. Also the lettering color inside every silhouette (pocket labels, location codes, hooks, slot outlines), because lettering inside a pocket is yellow paint showing through black. In dark scheme it becomes the pocket color, the yellow under-layer of the foam.
+- **Safety Yellow** (`safety-yellow`): The pocket color, the yellow under-layer of the foam showing through every cut. Also the lettering painted on the board (the name and section headings). 10.2:1 against foam black.
 
 ### Secondary
-- **Live Red** (`live-red`): The only red. Fills the LinkedIn plate, turns action tapes red on hover, draws the 3px focus ring, and fills a pocket under reduced motion. White on it is 5.2:1. The foam scheme uses **Live Red, Foam** (`live-red-foam`), brighter so it holds 3.6:1 as a ring against the black foam.
+- **Live Red** (`live-red`): The only red. Fills the LinkedIn plate, turns action tapes red on hover, draws the 3px focus ring, and fills a pocket under reduced motion. White on it is 4.7:1, and it holds 3.6:1 as a ring against the black foam.
 - **Live Ink** (`live-ink`): White lettering on the red plate only.
 
 ### Neutral
-- **Paint Black** (`paint-black`): Silhouettes, board lettering (name, section heading), body ink in light scheme, and all ink on laminated plates in both schemes. 10.2:1 on the yellow.
-- **Laminate White** (`laminate-white`): Laminated plates, the standard-work card, and label-maker tape. It stays white in both schemes; it is a printed object, not a surface that inverts.
-- **Board Umber** (`board-umber`): Secondary copy printed on the yellow board (tool descriptions). A warm dark brown rather than a grey, so it stays inside the yellow's family (7.7:1).
-- **Foam Black** (`foam-black`): The dark-scheme board, the top foam layer. Also the lettering inside yellow pockets in dark scheme.
-- **Foam Ink** / **Foam Ink Soft** (`foam-ink`, `foam-ink-soft`): Body and secondary copy on the foam (14:1 and 8.9:1).
+- **Paint Black** (`paint-black`): Ink on laminated plates, the standard-work card, and label-maker tape only (16.3:1 on laminate white).
+- **Laminate White** (`laminate-white`): Laminated plates, the standard-work card, and label-maker tape. It stays white on the black board; it is a printed object, not a surface that inverts.
+- **Foam Black** (`foam-black`): The board, the top foam layer. Also the lettering inside yellow pockets (10.2:1 on the yellow).
+- **Foam Ink** / **Foam Ink Soft** (`foam-ink`, `foam-ink-soft`): Body copy and secondary copy (tool descriptions) printed on the foam (14.0:1 and 8.9:1).
 
 ### Named Rules
 **The One Red Rule.** Red marks the live element and live states only: the primary exit, hover on an action, focus. Never decoration, never a second accent, never a heading.
 
-**The Paint-Through Rule.** Lettering inside a silhouette is always the board color showing through (`--on-pocket`), never white or grey. In the foam scheme the roles swap together: yellow pockets, black lettering.
+**The Paint-Through Rule.** Lettering inside a pocket is always the board color (`--on-pocket`): foam black on the yellow, never white or grey.
 
-**The Laminate Never Inverts Rule.** Printed objects (plates, tape, cards) keep white stock and black ink in both schemes. Only the board and its paint change.
+**The Laminate Never Inverts Rule.** Printed objects (plates, tape, cards) keep white stock and black ink, even on the black board. They never take the board's colors.
 
 ## Typography
 
@@ -206,8 +203,8 @@ Spacing is fluid rather than stepped: vertical gaps are `clamp()` values tied to
 The board is flat paint. Depth exists only where a physical object hangs on it: laminated plates carry a hairline contact shadow at rest and a longer drop shadow only while lifted. Silhouettes, the board, and text never cast shadows. Label tape has a 1px contact shadow as a stuck-down sticker.
 
 ### Shadow Vocabulary
-- **Rest** (`box-shadow: 0 1px 2px rgb(28 28 26 / 0.3)`; foam: `rgb(0 0 0 / 0.4)`): A plate hanging flush on its hook.
-- **Lift** (`box-shadow: 0 12px 16px -12px rgb(28 28 26 / 0.45), 0 2px 4px rgb(28 28 26 / 0.18)`; foam uses black at 0.7 / 0.3): A plate lifted 24px off its hook on hover or focus.
+- **Rest** (`box-shadow: 0 1px 2px rgb(0 0 0 / 0.4)`): A plate hanging flush on its hook.
+- **Lift** (`box-shadow: 0 12px 16px -12px rgb(0 0 0 / 0.7), 0 2px 4px rgb(0 0 0 / 0.3)`): A plate lifted 24px off its hook on hover or focus.
 - **Tape** (`box-shadow: 0 1px 1px rgb(28 28 26 / 0.22)`): Label-maker tape stuck to the board.
 
 ### Named Rules
@@ -222,9 +219,9 @@ Silhouettes are generously rounded (16px; 11px on the compact CTA pocket), like 
 ## Components
 
 ### Pocket (signature)
-The painted silhouette that holds every object on the board.
+The cut pocket that holds every object on the board.
 - **Shape:** 16px radius, `pocket-pad` on top and sides, 12px under the label strip.
-- **Color:** Paint black on yellow (foam: yellow cut in black), lettering in the board color.
+- **Color:** Safety yellow cut into the foam-black board, lettering in the board color (foam black).
 - **Contents:** a slot, a plate, and a stenciled pocket label.
 - **Reduced motion:** the pocket turns live red on hover or focus instead of the plate lifting.
 
@@ -234,7 +231,7 @@ The plate's painted home. A 2px outline in the board color, inset 3px, with a st
 ### Plate
 A laminated print hanging in a slot.
 - **Shape:** 5px radius, 6px white border around a 2px-radius image (the photo plate: 5px border, 4px radius, square crop).
-- **Background:** Laminate white in both schemes.
+- **Background:** Laminate white.
 - **Shadow:** Rest at rest, Lift while lifted.
 - **Hover / Focus:** `translateY(-24px)` plus a per-object swing (roughly ±0.7° to ±1.6°, alternating direction across neighbours), 0.5s `cubic-bezier(0.16, 1, 0.3, 1)`.
 - **Load:** settles once from -16px with its swing, 0.75s, staggered 80ms per object after 150ms.
@@ -243,7 +240,7 @@ A laminated print hanging in a slot.
 White tape with black condensed caps (Label style), 1px radius, tape contact shadow, never wraps. Used for the owner's titles and for tool actions. Action tapes carry a 0.95em outbound-arrow SVG and turn their text live red on hover.
 
 ### Live Plate (primary action)
-The only red object: a live-red plate with white Button text and an outbound arrow, hung in a compact black pocket (9px padding, 11px radius). It lifts and swings like any plate. One per board.
+The only red object: a live-red plate with white Button text and an outbound arrow, hung in a compact yellow pocket (9px padding, 11px radius). It lifts and swings like any plate. One per board.
 
 ### Standard-Work Card
 A laminated work-instruction sheet used for a tool that is a process rather than a screen. White stock, no padding, clipped. A condensed 0.75rem caps header ruled off by a 2px paint-black line, then numbered steps in equal columns separated by 1px warm-grey rules, each with a stencil numeral, a bold 87.5%-width verb, and a short note. Under 40rem the steps stack as rows.
@@ -254,7 +251,7 @@ A laminated work-instruction sheet used for a tool that is a process rather than
 - **Do** give every new object its own pocket, slot, hook, and location code, continuing the sequence (A4, A5…).
 - **Do** decide paint or print before setting any text: Big Shoulders Stencil 800 uppercase if painted on the board, Archivo if printed.
 - **Do** keep red to the one live plate, hover on actions, and the 3px focus ring (6px offset).
-- **Do** keep laminated plates and tape white with black ink in both schemes.
+- **Do** keep laminated plates and tape white with black ink on the black board.
 - **Do** keep all motion as gravity: settle, lift (-24px with swing), fall back; swap it for a red pocket under reduced motion.
 - **Do** recompute the rack column split whenever a screenshot's aspect ratio changes, so paired plates share one height.
 

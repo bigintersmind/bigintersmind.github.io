@@ -28,7 +28,7 @@ The whole of ivanlay.com: one page. Visitor mode: **Persuade**. A peer decides t
 
 THESIS: Ivan's page is a lean-ops shadow board. Every project he built hangs in its own painted outline, so a peer sees at a glance what he makes. It refuses the centered avatar, bio, button and project-card stack the category always ships, and which the old page was.
 
-OWN-WORLD: Drenched safety-yellow painted board (#F2C230). Paint-black silhouettes (#1C1C1A) sit a hand's width larger than each object. White label-maker tape carries black condensed caps. Anything painted on the board is stencil lettering (Big Shoulders Stencil); anything printed and mounted is Archivo. One red (#C8372D) marks the live element only. The dark scheme becomes two-layer tool foam: a black top layer with yellow showing through every pocket. No gradients, glass, icon tiles or floating shadowed cards.
+OWN-WORLD: Two-layer tool foam. A black top layer (#1B1C1A) with safety yellow (#F2C230) showing through every pocket, each cut a hand's width larger than the object it holds. White label-maker tape carries black condensed caps. Anything painted on the board is stencil lettering (Big Shoulders Stencil); anything printed and mounted is Archivo. One red (#D23D31) marks the live element only. The site is dark-only: Ivan chose the foam over the drenched-yellow light scheme on 2026-09-26, so yellow is the accent, not the field. No gradients, glass, icon tiles or floating shadowed cards.
 
 STORY: A peer confirms the face and the name, reads in one line that Ivan runs support ops and builds the automation himself, and sees three working tools as the proof. Then they connect on LinkedIn or take a tool off the board.
 

@@ -1,45 +1,31 @@
-/* Shadow board: a painted safety-yellow board where every object hangs in its own outline.
-   Painted things (name, headings, outline labels) use the stencil face; printed things use Archivo. */
+/* Shadow board, cut as two-layer tool foam: a black top layer with safety yellow showing through
+   every pocket where a tool hangs. Painted things (name, headings, outline labels) use the stencil
+   face; printed things use Archivo. */
 :root {
-  color-scheme: light dark;
+  color-scheme: dark;
 
-  --board: #F2C230;          /* painted board */
-  --pocket: #1C1C1A;         /* painted silhouettes */
-  --on-pocket: #F2C230;      /* lettering inside a silhouette */
-  --engrave: #1C1C1A;        /* lettering painted on the board */
-  --ink: #1C1C1A;
-  --ink-soft: #3A3113;
+  --board: #1B1C1A;          /* top foam layer */
+  --pocket: #F2C230;         /* yellow under-layer, showing through each cut */
+  --on-pocket: #1B1C1A;      /* lettering inside a pocket */
+  --engrave: #F2C230;        /* lettering painted on the board */
+  --ink: #ECE8DC;
+  --ink-soft: #C2BBA7;
   --laminate: #FBFAF6;       /* printed, laminated plates */
   --tape: #FBFAF6;
   --tape-ink: #1C1C1A;
   --paint: #1C1C1A;
-  --live: #C8372D;           /* the only red: the live element */
+  --live: #D23D31;           /* the only red: the live element */
   --live-ink: #FFFFFF;
 
-  --rest: 0 1px 2px rgb(28 28 26 / 0.3);
-  --lift: 0 12px 16px -12px rgb(28 28 26 / 0.45), 0 2px 4px rgb(28 28 26 / 0.18);
+  --rest: 0 1px 2px rgb(0 0 0 / 0.4);
+  --lift: 0 12px 16px -12px rgb(0 0 0 / 0.7), 0 2px 4px rgb(0 0 0 / 0.3);
 
   --font-paint: 'Big Shoulders Stencil', 'Arial Narrow', sans-serif;
   --font-print: 'Archivo', system-ui, sans-serif;
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
   --gutter: clamp(1.25rem, 4vw, 3.5rem);
-  --pocket-pad: 24px;        /* painted margin around a hung tool */
+  --pocket-pad: 24px;        /* margin of the cut around a hung tool */
   --rack-gap: clamp(1.25rem, 2.2vw, 2rem);
-}
-
-/* Dark: two-layer tool foam. Black top layer, yellow showing through every cut. */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --board: #1B1C1A;
-    --pocket: #F2C230;
-    --on-pocket: #1B1C1A;
-    --engrave: #F2C230;
-    --ink: #ECE8DC;
-    --ink-soft: #C2BBA7;
-    --live: #D23D31;
-    --rest: 0 1px 2px rgb(0 0 0 / 0.4);
-    --lift: 0 12px 16px -12px rgb(0 0 0 / 0.7), 0 2px 4px rgb(0 0 0 / 0.3);
-  }
 }
 
 *,

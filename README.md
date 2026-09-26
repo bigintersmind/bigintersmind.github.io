@@ -2,7 +2,7 @@
 
 The source for [ivanlay.com](https://ivanlay.com), Ivan Lay's personal landing page. It is one HTML page and one stylesheet, served by GitHub Pages from `main`. There is no build step and no JavaScript.
 
-The page is designed as a lean-ops shadow board: each project hangs in its own painted outline on a safety-yellow board, and a dark variant follows the visitor's system setting. Two documents govern changes to it. `PRODUCT.md` says who the page is for, how it should sound, and what it may and may not claim. `DESIGN.md` records the visual system: colors, type, components and motion. Read both before changing the copy or the look.
+The page is designed as a lean-ops shadow board cut from two-layer tool foam: each project hangs in its own pocket, where safety yellow shows through a black top layer. There is one scheme, dark, whatever the visitor's system setting. Two documents govern changes to it. `PRODUCT.md` says who the page is for, how it should sound, and what it may and may not claim. `DESIGN.md` records the visual system: colors, type, components and motion. Read both before changing the copy or the look.
 
 ## Preview locally
 
@@ -30,7 +30,7 @@ GitHub Pages builds from the root of `main` and serves it at ivanlay.com, the do
 
 ```text
 index.html       the page
-style.css        all styles; color tokens at the top, dark scheme after them
+style.css        all styles; color tokens at the top
 favicon.svg
 img/             project screenshots and their provenance sidecars
 ivans-head.png   headshot (a stand-in until the new photo)

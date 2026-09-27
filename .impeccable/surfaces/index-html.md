@@ -16,7 +16,7 @@ The whole of ivanlay.com: one page. Visitor mode: **Persuade**. A peer decides t
 - Audience: Ivan's professional network. They arrive knowing the name and want the face and story (PRODUCT.md).
 - Action: connect on LinkedIn, or open a project. Both are first-class.
 - Proof: three live projects. Real screenshots of DiceWars JS (`img/dicewars.webp`) and Connections Sorter (`img/connections-sorter.webp`), captured 2026-09-25 from the live sites. spec-to-ship is shown as a typeset work-instruction card listing its real steps from the repo README: spec → prd → issues → triage → AFK loop.
-- Copy: approved by Ivan on 2026-09-25. Headline "I run support operations, and I build the automation myself." Bio as approved. Projects heading "A few things I've built". Button "Connect on LinkedIn".
+- Copy: approved by Ivan on 2026-09-25. Headline "I run operations, and I build the automation myself." (changed from "support operations" on 2026-09-26, when the title became Operations Manager) Bio as approved. Projects heading "A few things I've built". Button "Connect on LinkedIn".
 
 ## Constraints
 
@@ -30,7 +30,7 @@ THESIS: Ivan's page is a lean-ops shadow board. Every project he built hangs in 
 
 OWN-WORLD: Two-layer tool foam. A black top layer (#1B1C1A) with safety yellow (#F2C230) showing through every pocket, each cut a hand's width larger than the object it holds. White label-maker tape carries black condensed caps. Anything painted on the board is stencil lettering (Big Shoulders Stencil); anything printed and mounted is Archivo. One red (#D23D31) marks the live element only. The site is dark-only: Ivan chose the foam over the drenched-yellow light scheme on 2026-09-26, so yellow is the accent, not the field. No gradients, glass, icon tiles or floating shadowed cards.
 
-STORY: A peer confirms the face and the name, reads in one line that Ivan runs support ops and builds the automation himself, and sees three working tools as the proof. Then they connect on LinkedIn or take a tool off the board.
+STORY: A peer confirms the face and the name, reads in one line that Ivan runs operations and builds the automation himself, and sees three working tools as the proof. Then they connect on LinkedIn or take a tool off the board.
 
 FIRST VIEWPORT: Desktop 1440×900: "IVAN LAY" stenciled across the top left at display scale, with the owner photo hung in its own silhouette beside it and the two titles on label tape. Lower left: headline, bio, and the red LinkedIn plate. The right seven columns are the tool field: DiceWars (landscape), Connections Sorter (portrait) and the spec-to-ship card, each in its painted outline with a location tag (A1–A3) and action, all visible without scrolling. Mobile 390: name, photo, headline and the red plate in the first screen, with the tools hung one per row after.
 

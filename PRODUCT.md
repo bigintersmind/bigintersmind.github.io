@@ -25,7 +25,7 @@ No direct contact channel (email, form) is wanted.
 
 ## Positioning
 
-An ops leader who builds. Ivan runs support operations and also ships the automation himself as real code, tools, and plugins, not just roadmaps. Many support-ops leaders talk about AI and automation. Ivan can point to working software he made. The projects are the proof, and the page should let them carry that claim instead of stating it in adjectives.
+An ops leader who builds. Ivan runs operations and also ships the automation himself as real code, tools, and plugins, not just roadmaps. Many ops leaders talk about AI and automation. Ivan can point to working software he made. The projects are the proof, and the page should let them carry that claim instead of stating it in adjectives.
 
 ## Operating Context
 
@@ -45,8 +45,8 @@ An ops leader who builds. Ivan runs support operations and also ships the automa
 ## Brand Commitments
 
 - Name: **Ivan Lay**. Domain: **ivanlay.com**. GitHub handle: **bigintersmind**. LinkedIn: https://www.linkedin.com/in/ivanlay/
-- **Voice: conversational first person.** Ivan talks to a peer in plain language ("I run support ops, and I build the tools my team uses"). The current bio's résumé register is out of step with this and should move to it. The projects heading ("A few things I've built") already matches.
-- Professional titles in the current copy: "Support Operations Manager" and "AI & Automation Leader". These are existing facts, not a mandated tagline.
+- **Voice: conversational first person.** Ivan talks to a peer in plain language ("I run ops, and I build the tools my team uses"). The current bio's résumé register is out of step with this and should move to it. The projects heading ("A few things I've built") already matches.
+- Professional titles in the current copy: "Operations Manager" and "AI & Automation Leader" (Ivan moved from support operations into AI and business operations in 2026). These are existing facts, not a mandated tagline.
 - None of the current visuals (LinkedIn-style blue, Inter, centered card layout) have been made binding.
 - **Must not feel:** corporate (a LinkedIn profile or a consultancy's About page), like a dev portfolio (terminal prompts, hacker dark mode, code as decoration), cute (playful enough that peers doubt the ops leadership), or showy (motion or scroll effects that get between the visitor and the content).
 

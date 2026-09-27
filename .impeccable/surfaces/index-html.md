@@ -15,7 +15,7 @@ The whole of ivanlay.com: one page. Visitor mode: **Persuade**. A peer decides t
 
 - Audience: Ivan's professional network. They arrive knowing the name and want the face and story (PRODUCT.md).
 - Action: connect on LinkedIn, or open a project. Both are first-class.
-- Proof: three live projects. Real screenshots of DiceWars JS (`img/dicewars.webp`) and Connections Sorter (`img/connections-sorter.webp`), captured 2026-09-25 from the live sites. spec-to-ship is shown as a typeset work-instruction card listing its real steps from the repo README: spec → prd → issues → triage → AFK loop.
+- Proof: three live projects. Real screenshots from the live sites: DiceWars JS (`img/dicewars.webp`, captured 2026-09-25) and Connections Sorter (`img/connections-sorter.webp`, retaken 2026-09-26 with two rows sorted). spec-to-ship is shown as a typeset work-instruction card listing its real steps from the repo README: spec → prd → issues → triage → AFK loop.
 - Copy: approved by Ivan on 2026-09-25. Headline "I run operations, and I build the automation myself." (changed from "support operations" on 2026-09-26, when the title became Operations Manager) Bio as approved. Projects heading "A few things I've built". Button "Connect on LinkedIn".
 
 ## Constraints

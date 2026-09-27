@@ -3,48 +3,102 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ivan Lay &mdash; Support Operations Manager & AI Automation Leader</title>
-  <meta name="description" content="Accomplished Support Operations Manager with 12+ years driving AI and automation enablement in high-profile technical environments.">
+  <title>Ivan Lay &mdash; Operations Manager & AI Automation Leader</title>
+  <meta name="description" content="I run operations, and I build the automation myself. 12+ years bringing AI and automation into high-profile technical teams.">
+  <meta name="theme-color" content="#1B1C1A">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,400..800&family=Big+Shoulders+Stencil:opsz,wght@10..72,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="container">
-    <img src="ivans-head.png" alt="Ivan Lay" class="hero-image">
-    <h1>Ivan Lay</h1>
-    <p class="subtitle">Support Operations Manager | AI &amp; Automation Leader</p>
-    <p class="bio">Accomplished Support Operations Manager with 12+ years of success enabling AI and automation in high-profile technical environments. Strategic leader recognized for mentoring teams, solving complex problems, and optimizing processes to deliver measurable capacity gains and exceptional customer experiences.</p>
-    <a href="https://www.linkedin.com/in/ivanlay/" class="btn" target="_blank" rel="noopener">Connect on LinkedIn</a>
+  <svg width="0" height="0" aria-hidden="true" style="position:absolute">
+    <symbol id="icon-out" viewBox="0 0 16 16">
+      <path d="M4.5 11.5 11.5 4.5M5.75 4.5h5.75v5.75" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="square"/>
+    </symbol>
+  </svg>
 
-    <section class="projects" aria-labelledby="projects-heading">
-      <h2 id="projects-heading">A few things I’ve built</h2>
-
-      <a class="project-card" href="https://ivanlay.com/dicewarsjs/" target="_blank" rel="noopener">
-        <span class="project-top">
-          <span class="project-name">DiceWars JS</span>
-          <span class="project-action">Play &rarr;</span>
+  <main class="board">
+    <div class="intro">
+      <header class="owner">
+        <span class="pocket pocket--photo">
+          <img class="plate plate--photo" src="ivans-head.png" width="200" height="200" alt="Ivan Lay">
         </span>
-        <span class="project-desc">A browser port of Dice Wars, with a bot SDK and AI arena.</span>
-      </a>
+        <div class="owner__id">
+          <h1 class="name"><span>Ivan</span> <span>Lay</span></h1>
+          <p class="roles">
+            <span class="tape">Operations Manager</span>
+            <span class="tape">AI &amp; Automation Leader</span>
+          </p>
+        </div>
+      </header>
 
-      <a class="project-card" href="https://connections-sorter.com/" target="_blank" rel="noopener">
-        <span class="project-top">
-          <span class="project-name">Connections Sorter</span>
-          <span class="project-action">Open &rarr;</span>
-        </span>
-        <span class="project-desc">A scratchpad for rearranging the NYT Connections grid before you guess.</span>
-      </a>
+      <p class="lede">I run operations, and I build the automation myself.</p>
 
-      <a class="project-card" href="https://github.com/bigintersmind/spec-to-ship" target="_blank" rel="noopener">
-        <span class="project-top">
-          <span class="project-name">spec-to-ship</span>
-          <span class="project-action">GitHub &nearr;</span>
-        </span>
-        <span class="project-desc">A Claude Code plugin for turning a fuzzy idea into grabbable tickets.</span>
+      <div class="bio">
+        <p>For 12+ years I’ve worked in support ops, bringing AI and automation into high-profile technical teams. I mentor people, untangle complicated problems, and tune processes until the team has real capacity to spare and customers feel the difference.</p>
+        <p>I’d rather ship the tool than write a roadmap about it. Here are a few of them.</p>
+      </div>
+
+      <a class="pocket pocket--cta" href="https://www.linkedin.com/in/ivanlay/" target="_blank" rel="noopener">
+        <span class="plate plate--live">Connect on LinkedIn <svg class="icon" aria-hidden="true"><use href="#icon-out"/></svg></span>
       </a>
+    </div>
+
+    <section class="tools" aria-labelledby="tools-title">
+      <h2 id="tools-title" class="tools__title">A few things I’ve built</h2>
+
+      <ul class="rack">
+        <li class="tool tool--dicewars">
+          <a class="tool__link" href="https://ivanlay.com/dicewarsjs/" target="_blank" rel="noopener">
+            <span class="pocket">
+              <span class="slot"><span class="hook" aria-hidden="true"></span><span class="slot__code" aria-hidden="true">A1</span><span class="plate"><img src="img/dicewars.webp" width="1200" height="800" alt="DiceWars JS start screen: the game’s logo and setup menu over a hex map stacked with dice"></span></span>
+              <span class="pocket__label"><span class="pocket__name">DiceWars JS</span></span>
+            </span>
+            <span class="tool__foot">
+              <span class="tool__desc">A browser port of Dice Wars, with a bot SDK and AI arena.</span>
+              <span class="tape tape--action">Play <svg class="icon" aria-hidden="true"><use href="#icon-out"/></svg></span>
+            </span>
+          </a>
+        </li>
+
+        <li class="tool tool--connections">
+          <a class="tool__link" href="https://connections-sorter.com/" target="_blank" rel="noopener">
+            <span class="pocket">
+              <span class="slot"><span class="hook" aria-hidden="true"></span><span class="slot__code" aria-hidden="true">A2</span><span class="plate"><img src="img/connections-sorter.webp" width="960" height="1400" alt="Connections Sorter: sixteen word tiles in four color-tagged rows, with the Yellow and Green rows marked solved"></span></span>
+              <span class="pocket__label"><span class="pocket__name">Connections Sorter</span></span>
+            </span>
+            <span class="tool__foot">
+              <span class="tool__desc">A scratchpad for rearranging the NYT Connections grid before you guess.</span>
+              <span class="tape tape--action">Open <svg class="icon" aria-hidden="true"><use href="#icon-out"/></svg></span>
+            </span>
+          </a>
+        </li>
+
+        <li class="tool tool--spec">
+          <a class="tool__link" href="https://github.com/bigintersmind/spec-to-ship" target="_blank" rel="noopener">
+            <span class="pocket">
+              <span class="slot"><span class="hook" aria-hidden="true"></span><span class="slot__code" aria-hidden="true">A3</span><span class="plate plate--card">
+                <span class="card__head">Standard work</span>
+                <ol class="card__steps">
+                  <li><b>spec</b> <span><span class="nowrap">Stress-test</span> the idea</span></li>
+                  <li><b>prd</b> <span>Write it up</span></li>
+                  <li><b>issues</b> <span>Cut grabbable tickets</span></li>
+                  <li><b>triage</b> <span>Route to agent or human</span></li>
+                  <li><b>AFK loop</b> <span>An agent picks it up</span></li>
+                </ol>
+              </span></span>
+              <span class="pocket__label"><span class="pocket__name">spec-to-ship</span></span>
+            </span>
+            <span class="tool__foot">
+              <span class="tool__desc">A Claude Code plugin for turning a fuzzy idea into grabbable tickets.</span>
+              <span class="tape tape--action">GitHub <svg class="icon" aria-hidden="true"><use href="#icon-out"/></svg></span>
+            </span>
+          </a>
+        </li>
+      </ul>
     </section>
   </main>
 </body>

@@ -1,136 +1,565 @@
-/* Base styles and variables */
+/* Shadow board, cut as two-layer tool foam: a black top layer with safety yellow showing through
+   every pocket where a tool hangs. Painted things (name, headings, outline labels) use the stencil
+   face; printed things use Archivo. */
 :root {
-  --bg-color: #f9f9f9;
-  --text-color: #333333;
-  --primary-color: #0077b5;
-  --primary-hover: #005582;
-  --font-sans: 'Inter', sans-serif;
+  color-scheme: dark;
+
+  --board: #1B1C1A;          /* top foam layer */
+  --pocket: #F2C230;         /* yellow under-layer, showing through each cut */
+  --on-pocket: #1B1C1A;      /* lettering inside a pocket */
+  --engrave: #F2C230;        /* lettering painted on the board */
+  --ink: #ECE8DC;
+  --ink-soft: #C2BBA7;
+  --laminate: #FBFAF6;       /* printed, laminated plates */
+  --tape: #FBFAF6;
+  --tape-ink: #1C1C1A;
+  --paint: #1C1C1A;
+  --live: #D23D31;           /* the only red: the live element */
+  --live-ink: #FFFFFF;
+
+  --rest: 0 1px 2px rgb(0 0 0 / 0.4);
+  --lift: 0 12px 16px -12px rgb(0 0 0 / 0.7), 0 2px 4px rgb(0 0 0 / 0.3);
+
+  --font-paint: 'Big Shoulders Stencil', 'Arial Narrow', sans-serif;
+  --font-print: 'Archivo', system-ui, sans-serif;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --gutter: clamp(1.25rem, 4vw, 3.5rem);
+  --pocket-pad: 24px;        /* margin of the cut around a hung tool */
+  --rack-gap: clamp(1.25rem, 2.2vw, 2rem);
 }
 
-* {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+
+html {
+  background: var(--board);
+  scrollbar-color: var(--pocket) var(--board);
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  font-family: var(--font-sans);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  padding: 2rem;
+  background: var(--board);
+  color: var(--ink);
+  font-family: var(--font-print);
+  font-size: 1.0625rem;
+  line-height: 1.55;
+  caret-color: var(--live);
+  -webkit-font-smoothing: antialiased;
 }
 
-.container {
-  max-width: 600px;
-  text-align: center;
+::selection {
+  background: var(--pocket);
+  color: var(--on-pocket);
 }
 
-.hero-image {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 1rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-h1 {
-  font-size: 2.5rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-}
-
-.subtitle {
-  font-size: 1.25rem;
-  font-weight: 300;
-  color: var(--primary-color);
-  margin-bottom: 1rem;
-}
-
-.bio {
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
-}
-
-.btn {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background-color: var(--primary-color);
-  color: #ffffff;
-  text-decoration: none;
-  border-radius: 0.5rem;
-  font-weight: 500;
-  transition: background-color 0.3s;
-}
-
-.btn:hover {
-  background-color: var(--primary-hover);
-}
-
-/* Projects */
-.projects {
-  margin-top: 2.5rem;
-  padding-top: 2rem;
-  border-top: 1px solid #ebebeb;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  text-align: left;
-}
-
-#projects-heading {
-  font-size: 0.95rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  color: #555;
-  text-align: center;
-  margin-bottom: 0.5rem;
-}
-
-.project-card {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  padding: 1rem 1.25rem;
-  border: 1px solid #e5e5e5;
-  border-radius: 0.5rem;
-  text-decoration: none;
+a {
   color: inherit;
-  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  text-decoration: none;
 }
 
-.project-card:hover {
-  border-color: var(--primary-color);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-  transform: translateY(-2px);
+a:focus-visible {
+  outline: 3px solid var(--live);
+  outline-offset: 6px;
+  border-radius: 16px;
 }
 
-.project-top {
+.icon {
+  width: 0.95em;
+  height: 0.95em;
+  flex: none;
+}
+
+/* ---------- The board ---------- */
+
+.board {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  column-gap: clamp(2.5rem, 5.5vw, 6rem);
+  align-content: center;
+  align-items: start;
+  min-height: 100vh;
+  min-height: 100svh;
+  max-width: 90rem;
+  margin-inline: auto;
+  padding: clamp(1.75rem, 4.5vh, 3.5rem) var(--gutter);
+}
+
+/* ---------- Silhouettes and plates ---------- */
+
+.pocket {
+  display: block;
+  background: var(--pocket);
+  border-radius: 16px;
+  padding: var(--pocket-pad) var(--pocket-pad) 12px;
+}
+
+/* The plate's painted home: an outline and location code on the pocket floor,
+   hidden while the plate hangs there and exposed when it is lifted. */
+.slot {
+  position: relative;
+  display: block;
+}
+
+.slot::before {
+  content: "";
+  position: absolute;
+  inset: 3px 3px 9px;
+  border: 2px solid var(--on-pocket);
+  border-radius: 5px;
+}
+
+.slot__code {
+  position: absolute;
+  left: 50%;
+  bottom: 2px;
+  transform: translateX(-50%);
+  padding: 0 6px;
+  background: var(--pocket);  /* the outline breaks around its painted code */
+  color: var(--on-pocket);
+  font-family: var(--font-paint);
+  font-weight: 800;
+  font-size: 1rem;
+  line-height: 1;
+  letter-spacing: 0.08em;
+}
+
+/* The peg each tool hangs from */
+.hook {
+  position: absolute;
+  left: 50%;
+  top: calc(7px - var(--pocket-pad));
+  width: 10px;
+  height: calc(var(--pocket-pad) - 7px);
+  transform: translateX(-50%);
+}
+
+.hook::before,
+.hook::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--on-pocket);
+}
+
+.hook::before {
+  top: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.hook::after {
+  top: 6px;
+  bottom: 0;
+  width: 3px;
+}
+
+.plate {
+  position: relative;
+  z-index: 1;
+  display: block;
+  background: var(--laminate);
+  border-radius: 5px;
+  padding: 6px;
+  box-shadow: var(--rest);
+  transform-origin: 50% 0;
+  transition: transform 0.5s var(--ease-out), box-shadow 0.5s var(--ease-out);
+}
+
+.plate img {
+  width: 100%;
+  border-radius: 2px;
+}
+
+.pocket__label {
+  display: block;
+  height: 2rem;               /* fixed strip so neighbouring pockets end on one line */
+  padding: 0.7rem 0 0;
+  color: var(--on-pocket);
+  font-family: var(--font-paint);
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.pocket__name {
+  font-size: 1.3rem;
+  letter-spacing: 0.02em;
+}
+
+
+/* ---------- Owner ---------- */
+
+.owner {
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 1rem;
+  align-items: flex-end;
+  gap: clamp(1rem, 2vw, 1.75rem);
 }
 
-.project-name {
-  font-weight: 600;
-  color: var(--text-color);
+.pocket--photo {
+  flex: none;
+  width: clamp(7.5rem, 15.5vw, 14rem);
+  padding: clamp(10px, 1.1vw, 16px);
 }
 
-.project-action {
-  color: var(--primary-color);
-  font-weight: 500;
-  font-size: 0.9rem;
+.plate--photo {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.owner__id {
+  min-width: 0;
+  padding-bottom: 0.2rem;
+}
+
+.name {
+  font-family: var(--font-paint);
+  font-weight: 800;
+  font-size: clamp(3.5rem, 1.6rem + 4.6vw, 6rem);
+  line-height: 0.86;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--engrave);
+}
+
+.name span {
+  display: block;
+}
+
+.roles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: clamp(0.85rem, 1.6vw, 1.15rem);
+}
+
+/* Label-maker tape */
+.tape {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  background: var(--tape);
+  color: var(--tape-ink);
+  font-stretch: 75%;
+  font-weight: 650;
+  font-size: 0.78rem;
+  line-height: 1.2;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.34em 0.7em 0.3em;
+  border-radius: 1px;
+  box-shadow: 0 1px 1px rgb(28 28 26 / 0.22);
   white-space: nowrap;
 }
 
-.project-desc {
-  font-size: 0.9rem;
-  line-height: 1.5;
-  color: #555;
+/* ---------- Pitch ---------- */
+
+.lede {
+  margin-top: clamp(2rem, 5.5vh, 3.25rem);
+  max-width: 15em;
+  font-stretch: 87.5%;
+  font-weight: 800;
+  font-size: clamp(1.8rem, 1.05rem + 2vw, 2.75rem);
+  line-height: 1.04;
+  letter-spacing: -0.012em;
+  text-wrap: balance;
+}
+
+.bio {
+  max-width: 34em;
+}
+
+.bio p {
+  margin-top: 1rem;
+  text-wrap: pretty;
+}
+
+.bio p:first-child {
+  margin-top: clamp(1.1rem, 2.5vh, 1.5rem);
+}
+
+.pocket--cta {
+  display: inline-block;
+  margin-top: clamp(1.75rem, 4vh, 2.5rem);
+  padding: 9px;
+  border-radius: 11px;
+}
+
+.plate--live {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  background: var(--live);
+  color: var(--live-ink);
+  padding: 1rem 1.4rem 0.95rem;
+  border-radius: 4px;
+  font-stretch: 75%;
+  font-weight: 750;
+  font-size: 1.05rem;
+  line-height: 1;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+/* ---------- The tool field ---------- */
+
+.tools__title {
+  font-family: var(--font-paint);
+  font-weight: 800;
+  font-size: clamp(1.5rem, 1.1rem + 1vw, 2rem);
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--engrave);
+  margin-bottom: clamp(1rem, 2.5vh, 1.5rem);
+}
+
+.rack {
+  list-style: none;
+  display: grid;
+  /* Split the image widths 1.5 : 0.6857 so the 3:2 and 24:35 screenshots share one height;
+     --pp is the fixed pocket + plate padding each column carries on top of its image. */
+  --pp: calc(2 * var(--pocket-pad) + 12px);
+  grid-template-columns:
+    calc((100% - var(--rack-gap) - 2 * var(--pp)) * 0.68627 + var(--pp))
+    minmax(0, 1fr);
+  grid-template-areas:
+    "dicewars connections"
+    "spec spec";
+  gap: clamp(1.5rem, 3vh, 2.25rem) var(--rack-gap);
+  align-items: start;
+}
+
+.tool--dicewars { grid-area: dicewars; --swing: -1.4deg; --i: 1; }
+.tool--connections { grid-area: connections; --swing: 1.6deg; --i: 2; }
+.tool--spec { grid-area: spec; --swing: -0.7deg; --i: 3; }
+.pocket--photo { --swing: 1.2deg; --i: 0; }
+.pocket--cta { --swing: -1deg; --i: 4; }
+
+.tool__link {
+  display: block;
+}
+
+.tool__foot {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem 1rem;
+  margin-top: 0.8rem;
+}
+
+.tool__desc {
+  font-size: 0.9375rem;
+  line-height: 1.45;
+  color: var(--ink-soft);
+  max-width: 34ch;
+}
+
+.tape--action {
+  flex: none;
+  font-size: 0.8rem;
+  transition: color 0.2s ease-out;
+}
+
+.tool--connections .tool__foot {
+  flex-direction: column;
+}
+
+.tool--connections .pocket__name {
+  font-size: 1.05rem;
+}
+
+/* The spec-to-ship work instruction card */
+.plate--card {
+  padding: 0;
+  overflow: hidden;
+  color: var(--paint);
+}
+
+.card__head {
+  display: block;
+  margin: 0.75rem 0.9rem 0;
+  padding-bottom: 0.45rem;
+  border-bottom: 2px solid var(--paint);
+  font-stretch: 75%;
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.card__steps {
+  list-style: none;
+  counter-reset: step;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.card__steps li {
+  counter-increment: step;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.65rem 0.8rem 0.75rem;
+  font-size: 0.84rem;
+  line-height: 1.3;
+  color: #45463F;
+  text-wrap: balance;
+}
+
+.card__steps li + li {
+  border-left: 1px solid #D9D6CB;
+}
+
+.card__steps li::before {
+  content: counter(step);
+  font-family: var(--font-paint);
+  font-weight: 800;
+  font-size: 1.45rem;
+  line-height: 1;
+  color: var(--paint);
+  margin-bottom: 0.2rem;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.card__steps b {
+  font-stretch: 87.5%;
+  font-weight: 750;
+  font-size: 0.95rem;
+  color: var(--paint);
+}
+
+/* ---------- Motion: gravity only ---------- */
+
+@media (prefers-reduced-motion: no-preference) {
+  .plate {
+    animation: settle 0.75s var(--ease-out) backwards;
+    animation-delay: calc(var(--i, 0) * 80ms + 150ms);
+  }
+
+  @media (hover: hover) {
+    .tool__link:hover .plate,
+    .tool__link:focus-visible .plate,
+    .pocket--cta:hover .plate,
+    .pocket--cta:focus-visible .plate {
+      transform: translateY(-24px) rotate(var(--swing, -1deg));
+      box-shadow: var(--lift);
+    }
+  }
+}
+
+@keyframes settle {
+  from {
+    transform: translateY(-16px) rotate(var(--swing, -1deg));
+  }
+}
+
+@media (hover: hover) {
+  .tool__link:hover .tape--action {
+    color: var(--live);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pocket {
+    transition: background-color 0.2s ease-out;
+  }
+
+  .tool__link:hover .pocket,
+  .tool__link:focus-visible .pocket,
+  .pocket--cta:hover,
+  .pocket--cta:focus-visible {
+    background: var(--live);
+  }
+}
+
+/* ---------- Narrower boards ---------- */
+
+@media (max-width: 68rem) {
+  :root {
+    --pocket-pad: 20px;
+  }
+
+  .board {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: clamp(3rem, 8vw, 4.5rem);
+    max-width: 46rem;
+  }
+
+  .lede {
+    max-width: 17em;
+  }
+}
+
+@media (max-width: 40rem) {
+  :root {
+    --pocket-pad: 16px;
+  }
+
+  body {
+    font-size: 1rem;
+  }
+
+  .rack {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      "dicewars"
+      "connections"
+      "spec";
+  }
+
+  .tool--connections .pocket {
+    max-width: 16rem;
+  }
+
+  .tool--connections .tool__foot {
+    flex-direction: row;
+  }
+
+  .card__steps {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .card__steps li {
+    display: grid;
+    grid-template-columns: 2rem 5.5rem 1fr;
+    align-items: baseline;
+    gap: 0.5rem;
+    padding: 0.6rem 0.9rem;
+  }
+
+  .card__steps li + li {
+    border-left: 0;
+    border-top: 1px solid #D9D6CB;
+  }
+
+  .card__steps li::before {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 22rem) {
+  .owner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }

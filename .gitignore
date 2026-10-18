@@ -2,6 +2,7 @@
 .impeccable/review/
 .impeccable/questions/
 .impeccable/config.local.json
+.impeccable/mocks/decision/
 
 # Browser-automation scratch files
 .playwright-mcp/

@@ -1,264 +1,313 @@
 ---
 name: Ivan Lay
-description: A lean-ops shadow board cut as two-layer tool foam. Every tool Ivan built hangs in its own cut pocket.
+description: An engineering drawing sheet printed as a cyanotype. Prussian blue ground, every line and letter in white, Ivan's name in the title block.
 colors:
-  safety-yellow: "#F2C230"
-  paint-black: "#1C1C1A"
-  laminate-white: "#FBFAF6"
-  live-red: "#D23D31"
-  live-ink: "#FFFFFF"
-  foam-black: "#1B1C1A"
-  foam-ink: "#ECE8DC"
-  foam-ink-soft: "#C2BBA7"
+  prussian-blue: "#163F96"
+  line-white: "#FFFFFF"
+  hairline: "rgb(255 255 255 / 0.55)"
+  ink: "#F5F8FF"
+  ink-soft: "#C7D5F5"
+  on-white: "#163F96"
+  white-hover: "#E2EAFF"
 typography:
   display:
-    fontFamily: "'Big Shoulders Stencil', 'Arial Narrow', sans-serif"
-    fontSize: "clamp(3.5rem, 1.6rem + 4.6vw, 6rem)"
-    fontWeight: 800
-    lineHeight: 0.86
-    letterSpacing: "0.01em"
+    fontFamily: "'Barlow Semi Condensed', 'Barlow', system-ui, sans-serif"
+    fontSize: "clamp(2.1rem, 1.3rem + 1.9vw, 2.6rem)"
+    fontWeight: 700
+    lineHeight: 0.95
+    letterSpacing: "-0.01em"
   headline:
-    fontFamily: "'Archivo', system-ui, sans-serif"
-    fontSize: "clamp(1.8rem, 1.05rem + 2vw, 2.75rem)"
-    fontWeight: 800
-    lineHeight: 1.04
-    letterSpacing: "-0.012em"
-    fontVariation: "'wdth' 87.5"
+    fontFamily: "'Barlow', system-ui, sans-serif"
+    fontSize: "clamp(1.85rem, 1.05rem + 1.9vw, 2.5rem)"
+    fontWeight: 600
+    lineHeight: 1.15
+    letterSpacing: "-0.015em"
   title:
-    fontFamily: "'Big Shoulders Stencil', 'Arial Narrow', sans-serif"
-    fontSize: "clamp(1.5rem, 1.1rem + 1vw, 2rem)"
-    fontWeight: 800
-    lineHeight: 1
-    letterSpacing: "0.02em"
-  pocket-label:
-    fontFamily: "'Big Shoulders Stencil', 'Arial Narrow', sans-serif"
-    fontSize: "1.3rem"
-    fontWeight: 800
-    lineHeight: 1
-    letterSpacing: "0.02em"
-  location-code:
-    fontFamily: "'Big Shoulders Stencil', 'Arial Narrow', sans-serif"
-    fontSize: "1rem"
-    fontWeight: 800
-    lineHeight: 1
-    letterSpacing: "0.08em"
-  body:
-    fontFamily: "'Archivo', system-ui, sans-serif"
+    fontFamily: "'Barlow', system-ui, sans-serif"
     fontSize: "1.0625rem"
+    fontWeight: 600
+    lineHeight: 1.3
+  body:
+    fontFamily: "'Barlow', system-ui, sans-serif"
+    fontSize: "1rem"
     fontWeight: 400
     lineHeight: 1.55
   body-small:
-    fontFamily: "'Archivo', system-ui, sans-serif"
-    fontSize: "0.9375rem"
+    fontFamily: "'Barlow', system-ui, sans-serif"
+    fontSize: "0.875rem"
     fontWeight: 400
-    lineHeight: 1.45
+    lineHeight: 1.4
+  body-table:
+    fontFamily: "'Barlow', system-ui, sans-serif"
+    fontSize: "0.8125rem"
+    fontWeight: 400
+    lineHeight: 1.3
+  button:
+    fontFamily: "'Barlow', system-ui, sans-serif"
+    fontSize: "0.9375rem"
+    fontWeight: 600
+    lineHeight: 1
+  heading-rule:
+    fontFamily: "'Barlow Semi Condensed', 'Barlow', system-ui, sans-serif"
+    fontSize: "0.6875rem"
+    fontWeight: 600
+    lineHeight: 1
+    letterSpacing: "0.16em"
   label:
-    fontFamily: "'Archivo', system-ui, sans-serif"
-    fontSize: "0.78rem"
-    fontWeight: 650
+    fontFamily: "'Barlow Semi Condensed', 'Barlow', system-ui, sans-serif"
+    fontSize: "0.6875rem"
+    fontWeight: 600
+    lineHeight: 1
+    letterSpacing: "0.14em"
+  caps:
+    fontFamily: "'Barlow Semi Condensed', 'Barlow', system-ui, sans-serif"
+    fontSize: "0.8125rem"
+    fontWeight: 600
     lineHeight: 1.2
     letterSpacing: "0.08em"
-    fontVariation: "'wdth' 75"
-  button:
-    fontFamily: "'Archivo', system-ui, sans-serif"
-    fontSize: "1.05rem"
-    fontWeight: 750
+  exit:
+    fontFamily: "'Barlow Semi Condensed', 'Barlow', system-ui, sans-serif"
+    fontSize: "0.75rem"
+    fontWeight: 700
     lineHeight: 1
-    letterSpacing: "0.07em"
-    fontVariation: "'wdth' 75"
+    letterSpacing: "0.12em"
+  balloon:
+    fontFamily: "'Barlow Semi Condensed', 'Barlow', system-ui, sans-serif"
+    fontSize: "0.75rem"
+    fontWeight: 700
+    lineHeight: 1
+  numeral:
+    fontFamily: "'Barlow Semi Condensed', 'Barlow', system-ui, sans-serif"
+    fontSize: "1.3rem"
+    fontWeight: 700
+    lineHeight: 1
+  numeral-note:
+    fontFamily: "'Barlow Semi Condensed', 'Barlow', system-ui, sans-serif"
+    fontSize: "0.95rem"
+    fontWeight: 700
+  zone:
+    fontFamily: "'Barlow Semi Condensed', 'Barlow', system-ui, sans-serif"
+    fontSize: "0.5625rem"
+    fontWeight: 600
+    lineHeight: 1
 rounded:
-  tape: "1px"
-  image: "2px"
-  plate-sm: "4px"
-  plate: "5px"
-  pocket-sm: "11px"
-  pocket: "16px"
+  balloon: "50%"
 spacing:
-  plate-border: "6px"
-  pocket-pad-sm: "16px"
-  pocket-pad-md: "20px"
-  pocket-pad: "24px"
-  gutter: "clamp(1.25rem, 4vw, 3.5rem)"
-  rack-gap: "clamp(1.25rem, 2.2vw, 2rem)"
+  margin: "clamp(10px, 1.4vw, 20px)"
+  ring: "18px"
+  pad: "clamp(18px, 2vw, 28px)"
+  gap: "clamp(1.75rem, 4vw, 3.5rem)"
+  row-gap: "clamp(1.25rem, 2.5vh, 1.75rem)"
+  frame-inset: "5px"
+  cell-pad: "1.35rem 0.85rem 0.6rem"
+  note-gap: "0.75rem"
+  caption-gap: "0.7rem"
 components:
-  pocket:
-    backgroundColor: "{colors.safety-yellow}"
-    textColor: "{colors.foam-black}"
-    rounded: "{rounded.pocket}"
-    padding: "24px 24px 12px"
-  plate:
-    backgroundColor: "{colors.laminate-white}"
-    rounded: "{rounded.plate}"
-    padding: "6px"
-  tape:
-    backgroundColor: "{colors.laminate-white}"
-    textColor: "{colors.paint-black}"
-    typography: "{typography.label}"
-    rounded: "{rounded.tape}"
-    padding: "0.34em 0.7em 0.3em"
-  tape-action-hover:
-    backgroundColor: "{colors.laminate-white}"
-    textColor: "{colors.live-red}"
-  pocket-cta:
-    backgroundColor: "{colors.safety-yellow}"
-    rounded: "{rounded.pocket-sm}"
-    padding: "9px"
-  plate-live:
-    backgroundColor: "{colors.live-red}"
-    textColor: "{colors.live-ink}"
+  button-primary:
+    backgroundColor: "{colors.line-white}"
+    textColor: "{colors.on-white}"
     typography: "{typography.button}"
-    rounded: "{rounded.plate-sm}"
-    padding: "1rem 1.4rem 0.95rem"
-  plate-card:
-    backgroundColor: "{colors.laminate-white}"
-    textColor: "{colors.paint-black}"
-    rounded: "{rounded.plate}"
-    padding: "0"
+    padding: "0 1rem"
+    height: "2.875rem"
+    width: "100%"
+  button-primary-hover:
+    backgroundColor: "{colors.white-hover}"
+  view-frame:
+    padding: "{spacing.frame-inset}"
+  balloon:
+    textColor: "{colors.line-white}"
+    typography: "{typography.balloon}"
+    rounded: "{rounded.balloon}"
+    size: "1.5rem"
+  balloon-inspected:
+    backgroundColor: "{colors.line-white}"
+    textColor: "{colors.on-white}"
+  exit:
+    textColor: "{colors.ink}"
+    typography: "{typography.exit}"
+    padding: "0.25rem 0 0"
+  cell-label:
+    textColor: "{colors.ink-soft}"
+    typography: "{typography.label}"
+  heading-rule:
+    textColor: "{colors.ink}"
+    typography: "{typography.heading-rule}"
+    padding: "0 0 0.4rem"
+  table-head:
+    textColor: "{colors.ink}"
+    typography: "{typography.heading-rule}"
+    padding: "0.5rem 0.75rem 0.4rem"
+  zone-glyph:
+    textColor: "{colors.ink-soft}"
+    typography: "{typography.zone}"
 ---
 
 # Design System: Ivan Lay
 
 ## Overview
 
-**Creative North Star: "The Shadow Board"**
+**Creative North Star: "The Cyanotype Sheet"**
 
-The page is a lean-manufacturing 5S shadow board cut as two-layer tool foam: a black top layer where every object hangs from its own peg inside a pocket cut a hand's width larger than the object, with safety yellow showing through every cut. Nothing floats in space; everything has a cut home, and the home is visible the moment the object leaves it. The board says "this person keeps a tidy shop and makes real tools" without a single adjective.
+The page is one engineering drawing sheet, printed as a cyanotype. The Prussian blue runs edge to edge; everything drawn on it (the outer and inner borders, the zone strip, the view frames, the table rules, the title-block cells, every letter) is white line work, as if the sheet had been exposed from a single negative. There is no second colour on the sheet itself. Depth is never implied; the sheet is flat paper and the only things that sit "on" it are the pieces of evidence pinned into their frames.
 
-Two material registers divide every surface. Anything **painted on the board** (the name, section headings, pocket labels, location codes, step numerals) is stencil lettering. Anything **printed and mounted** (headline, bio, label-maker tape, laminated plates, cards) is Archivo. The silhouettes are cut-outs, not painted outlines: the yellow under-layer is the pocket, and anything painted inside it is the black of the foam.
+Two kinds of lettering divide the sheet. Anything a drafter would letter by hand (the name in the title block, cell labels, zone glyphs, balloon numbers, exit labels, the ruled section heads, the table head, the note and step numerals) is Barlow Semi Condensed in capitals. Anything read as prose (the headline, the notes, view names and their one-liners, the table body, the button) is Barlow in sentence case. The condensed caps carry the drawing-sheet idiom; the prose face keeps it readable at a peer's pace.
 
-Motion obeys gravity only. Objects settle onto their hooks once on load, lift off with a small swing when hovered or focused, and fall back. Nothing slides, fades, or scrolls into view. The board rejects gradients, glass, icon tiles, and the centered avatar-bio-button-card stack.
+Evidence keeps its own colour. Screenshots sit in their white frames at full colour, the only non-blue, non-white material on the page. The portrait is the one exception: it takes the cyanotype process (greyscale, screened onto the blue cell) so the drafter's face belongs to the sheet rather than being pinned to it. Motion is a single develop on load; nothing slides, scrolls in, or fades by section. The sheet refuses the centred avatar, bio, button and project-card stack, and it refuses the previous yellow-and-black shop floor entirely.
 
 **Key Characteristics:**
-- A flat foam-black field with no gradient or texture.
-- Safety-yellow cut pockets with generous 16px corners hold every object.
-- Two type registers: stencil for paint, Archivo for print, never mixed within one object.
-- White laminate and label tape are the only light surfaces on the board.
-- One red, reserved for the live element and live states.
-- Gravity-only motion: hang, settle, lift.
+- A single Prussian blue ground with no gradient, texture, or tonal layering.
+- Every structural element is a white line: 1.5px outer border, 1px everything else, 55% white for secondary rules.
+- One solid white cell on the whole sheet: the Connect on LinkedIn button.
+- Two faces: Barlow Semi Condensed caps for drafting lettering, Barlow for prose.
+- True-colour evidence in white frames; the portrait alone takes the blue process.
+- Zoned border (1 to 8 across, A to D down) and a title block flush with the inner border.
+- One authored motion, the develop; one signature interaction, the inspection.
 
 ## Colors
 
-The board is foam black. Safety yellow is the accent that marks every pocket and the lettering painted on the board, with white for anything printed and one reserved red.
+A monochrome cyanotype: one blue, white at three strengths, and two near-white inks tinted toward the blue.
 
 ### Primary
-- **Safety Yellow** (`safety-yellow`): The pocket color, the yellow under-layer of the foam showing through every cut. Also the lettering painted on the board (the name and section headings). 10.2:1 against foam black.
-
-### Secondary
-- **Live Red** (`live-red`): The only red. Fills the LinkedIn plate, turns action tapes red on hover, draws the 3px focus ring, and fills a pocket under reduced motion. White on it is 4.7:1, and it holds 3.6:1 as a ring against the black foam.
-- **Live Ink** (`live-ink`): White lettering on the red plate only.
+- **Prussian Blue** (`prussian-blue`): The ground of the sheet, applied to `html` and `body` and to the portrait cell behind the screened photo. It is also the `theme-color` and the favicon tile. It is never used as an accent; it is the paper.
+- **Line White** (`line-white`): Every drawn line, frame, rule, and the name in the title block. It is the fill of the one white cell and of an inspected balloon, the colour of the selection highlight and the focus ring, and the caret.
 
 ### Neutral
-- **Paint Black** (`paint-black`): Ink on laminated plates, the standard-work card, and label-maker tape only (16.3:1 on laminate white).
-- **Laminate White** (`laminate-white`): Laminated plates, the standard-work card, and label-maker tape. It stays white on the black board; it is a printed object, not a surface that inverts.
-- **Foam Black** (`foam-black`): The board, the top foam layer. Also the lettering inside yellow pockets (10.2:1 on the yellow).
-- **Foam Ink** / **Foam Ink Soft** (`foam-ink`, `foam-ink-soft`): Body copy and secondary copy (tool descriptions) printed on the foam (14.0:1 and 8.9:1).
+- **Hairline** (`hairline`): White at 55%, for secondary rules only: the dividers between table steps and the scrollbar thumb. It is never used for text.
+- **Ink** (`ink`): Prose white, tinted faintly toward the blue, for the headline, notes, view names, ruled section heads, the table head, and bold terms in the table.
+- **Ink Soft** (`ink-soft`): Secondary prose and lettering: cell labels, zone glyphs, the sheet number, view one-liners, and table body text. It sits at roughly 6.5:1 on the blue, so it is legible as body copy, not only as decoration.
+- **On White** (`on-white`): The blue returns as lettering wherever white is the fill: the button, the inspected balloon, and selected text. It is the same value as the ground, defined as its own token so that the inversion is explicit.
+- **White Hover** (`white-hover`): The one white cell shifts to this slightly blued white on hover. It is the only hover fill on the sheet.
 
 ### Named Rules
-**The One Red Rule.** Red marks the live element and live states only: the primary exit, hover on an action, focus. Never decoration, never a second accent, never a heading.
+**The Blue or White Rule.** Every element the page draws is either the blue or a white. There is no accent, no second hue, no grey that is not a transparency of white. If a new surface needs emphasis, it gets more line, not more colour.
 
-**The Paint-Through Rule.** Lettering inside a pocket is always the board color (`--on-pocket`): foam black on the yellow, never white or grey.
+**The One White Cell Rule.** The sheet carries exactly one solid white fill at rest: the primary exit (Connect on LinkedIn). A second filled cell would make it a form, not a drawing. Balloons may fill white only while inspected.
 
-**The Laminate Never Inverts Rule.** Printed objects (plates, tape, cards) keep white stock and black ink, even on the black board. They never take the board's colors.
+**The Evidence Keeps Its Colour Rule.** Screenshots in view frames are shown in their own colour, untreated. The portrait alone takes the cyanotype process (greyscale, screen blend onto the blue). Never tint evidence blue and never show the portrait in colour.
 
 ## Typography
 
-**Display Font:** Big Shoulders Stencil 800 (with Arial Narrow, sans-serif)
-**Body Font:** Archivo, variable width 75–100 and weight 400–800 (with system-ui, sans-serif)
+**Display Font:** Barlow Semi Condensed, weights 600 and 700 (with Barlow, system-ui, sans-serif)
+**Body Font:** Barlow, weights 400 and 600 (with system-ui, sans-serif)
 
-**Character:** A condensed industrial stencil is the paint on the board. Archivo, squeezed with `font-stretch`, is the printing on labels and laminated sheets. The pairing reads as a shop floor, not a portfolio.
+Both families are self-hosted as four woff2 files under `fonts/` (OFL), preloaded, and declared with `font-display: block` so nothing swaps during the develop.
+
+**Character:** A drafter's two hands. The Semi Condensed capitals are the lettering of a title block: tight, tracked, authoritative, never used for a sentence. Barlow at 400 and 600 is the prose a peer reads at a glance: warm, plain, slightly squared. Nothing on the sheet is set in a third face, and no system display face appears.
 
 ### Hierarchy
-- **Display** (Stencil 800, `clamp(3.5rem, 1.6rem + 4.6vw, 6rem)`, 0.86, uppercase): The owner's name only, stacked one word per line.
-- **Headline** (Archivo 800 at 87.5% width, `clamp(1.8rem, 1.05rem + 2vw, 2.75rem)`, 1.04, -0.012em, balanced): The single-sentence pitch. Max 15em (17em in single column).
-- **Title** (Stencil 800, `clamp(1.5rem, 1.1rem + 1vw, 2rem)`, 1, uppercase): Section headings painted on the board.
-- **Pocket Label** (Stencil 800, 1.3rem, uppercase): Tool names painted inside the silhouette below the plate, in a fixed 2rem strip so neighbouring pockets end on one line. Drops to 1.05rem in narrow pockets.
-- **Location Code** (Stencil 800, 1rem, 0.08em): A1, A2, A3, painted on the pocket floor and breaking the slot outline.
-- **Body** (Archivo 400, 1.0625rem / 1rem under 40rem, 1.55): Bio. Max 34em.
-- **Body Small** (Archivo 400, 0.9375rem, 1.45): Tool descriptions. Max 34ch.
-- **Label** (Archivo 650 at 75% width, 0.78rem, 0.08em, uppercase): Label-maker tape (titles, actions at 0.8rem).
-- **Button** (Archivo 750 at 75% width, 1.05rem, 0.07em, uppercase): The live plate.
-
-Step numerals on the standard-work card use Stencil 800 at 1.45rem: numbers painted onto the card.
+- **Display** (Semi Condensed 700, clamp(2.1rem, 1.3rem + 1.9vw, 2.6rem), 0.95, -0.01em, uppercase): The owner's name in the DRAWN BY cell only. Drops to 1.9rem at or below 24rem.
+- **Headline** (Barlow 600, clamp(1.85rem, 1.05rem + 1.9vw, 2.5rem), 1.15, -0.015em): The one-sentence pitch at the top of the brief, balanced, max 15em (17em in the single column).
+- **Title** (Barlow 600, 1.0625rem, 1.3): View names in captions.
+- **Body** (Barlow 400, 1rem, 1.55): The notes; max 58ch, pretty-wrapped.
+- **Body Small** (Barlow 400, 0.875rem, 1.4, ink-soft): View one-liners, max 32ch.
+- **Body Table** (Barlow 400, 0.8125rem, 1.3, ink-soft): Table step text; the bold term in each step is Barlow 600 at 0.9375rem in ink. 0.75rem on short desktops.
+- **Button** (Barlow 600, 0.9375rem, 1): The one white cell.
+- **Heading Rule** (Semi Condensed 600, 0.6875rem, 0.16em, uppercase): Section heads (NOTES, A FEW THINGS I'VE BUILT) sitting on a 1px white rule, and the table head (STANDARD WORK).
+- **Label** (Semi Condensed 600, 0.6875rem, 0.14em, uppercase, ink-soft): The field label in the top-left corner of every title-block cell (DRAWN BY, CONTACT, ROLES, SHEET).
+- **Caps** (Semi Condensed 600, 0.8125rem, 1.2, 0.08em, uppercase): Roles and the sheet number in the title block.
+- **Exit** (Semi Condensed 700, 0.75rem, 0.12em, uppercase): The action word on each view (PLAY, OPEN, GITHUB) with the outbound arrow.
+- **Balloon** (Semi Condensed 700, 0.75rem, 1): The number inside a view balloon.
+- **Numeral** (Semi Condensed 700, 1.3rem, 1): Step numbers in the table (1.1rem on short desktops and stacked rows). Note numerals use the same face at 0.95rem.
+- **Zone** (Semi Condensed 600, 0.5625rem, 1, ink-soft): The border glyphs 1 to 8 and A to D, aria-hidden; 0.5rem at or below 68rem.
 
 ### Named Rules
-**The Paint or Print Rule.** Ask of every piece of text: is it painted on the board or printed and mounted? Painted is Big Shoulders Stencil 800, uppercase. Printed is Archivo. There is no third face and no stencil body copy.
+**The Lettered or Read Rule.** Ask of every string: would a drafter letter it on the sheet, or is it read as prose? Lettered is Barlow Semi Condensed, uppercase, tracked. Read is Barlow, sentence case. No Semi Condensed sentence, no Barlow label.
 
-**The Squeeze, Don't Swap Rule.** Condensed Archivo comes from `font-stretch` (75% for tape and plates, 87.5% for the headline), not from a separate condensed family.
+**The Numeral Rule.** Every number that indexes something on the sheet (notes, balloons, table steps, zone glyphs) is Semi Condensed 700 or 600. Numbers inside prose stay in Barlow.
 
 ## Layout
 
-The board is a two-zone grid: owner and pitch on the left, the tool field on the right, split `5fr / 7fr` with a `clamp(2.5rem, 5.5vw, 6rem)` column gap. The board is capped at 90rem, uses a `clamp(1.25rem, 4vw, 3.5rem)` gutter, and is vertically centered in a full-viewport minimum height, so on a 1440×900 desktop the whole board is visible at once.
+The page is one sheet with a 1.5px white outer border, inset from the viewport by `margin` (clamp(10px, 1.4vw, 20px); 10px on short desktops). It fills the viewport height (100svh minus twice the margin) so that at 1440x900 the whole drawing is visible and the title block sits in the bottom-right corner.
 
-Under 68rem the board becomes a single 46rem column (pocket padding 20px). Under 40rem the rack becomes one tool per row, the standard-work card's steps stack as rows (numeral / verb / note), and pocket padding drops to 16px. Under 22rem the photo stacks above the name.
+Inside the outer border runs the zone strip, `ring` wide (18px; 14px at or below 68rem and on short desktops), carrying eight numbered columns across the top and bottom and four lettered rows down the left and right, each zone separated by a 1px white tick. Inside the strip is the 1px inner border of the field, padded by `pad` (clamp(18px, 2vw, 28px); 16px on short desktops).
 
-The rack is a grid of pockets. When two screenshots of different aspect ratios share a row, the column widths are calculated from the ratios (plus the fixed pocket and plate padding) so the images share one height and the pockets end on one line; a full-width card spans the row below. This calculation is specific to the current pair of screenshots and must be recomputed when a tool is swapped.
+The field is a two-column grid, 5fr brief to 7fr views, with `gap` between (clamp(1.75rem, 4vw, 3.5rem)) and `row-gap` between the views and the title block (clamp(1.25rem, 2.5vh, 1.75rem); 1rem on short desktops). The views column is itself a grid of 1.45fr to 1fr (1.3fr on short desktops): the landscape view and the table stack on the left, the portrait view runs the full height on the right.
 
-Spacing is fluid rather than stepped: vertical gaps are `clamp()` values tied to viewport height (for example `clamp(2rem, 5.5vh, 3.25rem)` above the headline), while object-level spacing is fixed in px (pocket padding, 6px plate border, 3px slot inset).
+The title block sits at the bottom right of the field, pulled out by negative margins so its top and left rules meet the inner border exactly. It is a fixed grid of four columns (6.5rem portrait, 10.5rem, 1fr, 13.75rem contact) and two rows (6.5rem and 3.25rem), capped at 37.5rem wide; short desktops shrink the first two columns and rows (5.75rem, 9rem; 5.75rem, 3rem).
 
-### Named Rules
-**The Hand's Width Rule.** Every silhouette is the object plus a fixed painted margin (`pocket-pad`: 24px, 20px at ≤68rem, 16px at ≤40rem) on top and sides, with the label strip below. The margin also sizes the hook, which spans exactly from the pocket's top edge to the plate.
+Breakpoints, in the order they take effect going down:
+- **Short desktop** (min-width 68.0625rem and max-height 860px): margins, ring, pad, row gaps, caption gaps and table padding tighten so the title block stays in view at 1280x800.
+- **Single column** (max-width 68rem): the field becomes one column in the order title block, brief, views. The title block moves to the top strip, stretched to the inner border, as a two-column grid (6rem portrait, 1fr) with roles and contact on their own rows beneath; the SHEET cell is dropped. Brief capped at 40rem.
+- **Stacked views** (max-width 40rem): views stack in order 1, 2, 3; the portrait view frame is capped at 15rem; the table turns from five columns into five rows, each a baseline-aligned grid of numeral, term, and text, divided by hairlines.
+- **Small title block** (max-width 24rem): portrait cell 5rem, name 1.9rem.
+
+Spacing is rem-based with a few fixed pixel values where the drawing needs them: the 5px frame inset around evidence, the 1px and 1.5px line weights, and the 18px ring.
 
 ## Elevation & Depth
 
-The board is flat paint. Depth exists only where a physical object hangs on it: laminated plates carry a hairline contact shadow at rest and a longer drop shadow only while lifted. Silhouettes, the board, and text never cast shadows. Label tape has a 1px contact shadow as a stuck-down sticker.
-
-### Shadow Vocabulary
-- **Rest** (`box-shadow: 0 1px 2px rgb(0 0 0 / 0.4)`): A plate hanging flush on its hook.
-- **Lift** (`box-shadow: 0 12px 16px -12px rgb(0 0 0 / 0.7), 0 2px 4px rgb(0 0 0 / 0.3)`): A plate lifted 24px off its hook on hover or focus.
-- **Tape** (`box-shadow: 0 1px 1px rgb(28 28 26 / 0.22)`): Label-maker tape stuck to the board.
+The sheet is flat. There are no shadows, no gradients, no glass, and no tonal layering; the ground is one blue everywhere and every container is a drawn outline on it. Hierarchy comes from line weight (1.5px outer border, 1px everything else, 55% white for the least important rules) and from fill: the single white cell and the inspected balloon are the only places where figure and ground invert. Evidence in frames reads as "on" the sheet only because it carries its own colour.
 
 ### Named Rules
-**The Gravity Rule.** Shadows answer to gravity: they appear only under a hung or stuck object and lengthen only when that object is lifted. No ambient glows, no floating cards at rest, no hard offset shadows.
+**The No Shadow Rule.** Nothing on the sheet casts a shadow, at rest or in any state. Hover and focus change fill and underline, never elevation.
 
 ## Shapes
 
-Silhouettes are generously rounded (16px; 11px on the compact CTA pocket), like a routed foam cut or a painted outline around a tool. The objects inside are near-square: plates at 5px (4px for the photo and live plate), screenshots at 2px inside the plate, tape at 1px. The slot outline is a 2px painted stroke at 5px radius, inset 3px, matching the plate it holds. The hook is a 10px round peg head on a 3px stem. The focus ring follows the pocket's 16px curve.
+Everything is rectilinear with square corners. Frames, cells, the button, the table, and the focus ring are all sharp-cornered rectangles drawn in 1px white (1.5px for the outer border). The single curve on the sheet is the balloon: a 1.5rem circle (`rounded.balloon`, 50%) holding a view number, exactly as a drawing balloon is drawn. The favicon rounds its 32px tile by 4px for the browser chrome; that radius belongs to the icon, not the sheet.
 
-**The Soft Cut, Hard Object Rule.** The cut or painted home is round; the object in it is almost square. Never round a plate to match its pocket.
+Borders are selective within compound forms: title-block cells draw a right and bottom rule each, with the outer edges removed where the block meets the inner border, so no rule is ever doubled. Table steps divide with hairlines, not full lines, so the table reads as one object.
 
 ## Components
 
-### Pocket (signature)
-The cut pocket that holds every object on the board.
-- **Shape:** 16px radius, `pocket-pad` on top and sides, 12px under the label strip.
-- **Color:** Safety yellow cut into the foam-black board, lettering in the board color (foam black).
-- **Contents:** a slot, a plate, and a stenciled pocket label.
-- **Reduced motion:** the pocket turns live red on hover or focus instead of the plate lifting.
+### Buttons
+The one solid white cell: a plain rectangle of line white with the blue returning as lettering, the outbound arrow at the far right.
+- **Shape:** Square corners, no border, fills its cell (100% wide, 2.875rem tall, 0 1rem padding).
+- **Primary:** `button-primary`: line white fill, on-white text, Barlow 600 at 0.9375rem, text and icon spread with space-between and a 0.75rem gap. Lives in the CONTACT cell of the title block.
+- **Hover / Focus:** Background shifts to white-hover over 0.2s with the ease-out curve. Focus is the shared link ring: 2px solid line white, 4px offset.
+- **Secondary / Ghost:** None. There is one button on the sheet. Secondary actions are exits (below).
 
-### Slot, Hook, and Location Code
-The plate's painted home. A 2px outline in the board color, inset 3px, with a stenciled location code (A1, A2, …) centered on its bottom edge, the outline breaking around it. The plate covers it at rest; it shows only when the plate lifts. The hook (peg head and stem) sits above the plate's top center, and the plate swings from `transform-origin: 50% 0`.
+### View Frame
+A piece of evidence pinned to the sheet: a 1px white frame with a 5px inset holding a true-colour screenshot at full width.
+- **Corner Style:** Square.
+- **Background:** None; the inset shows the blue.
+- **Shadow Strategy:** None (see Elevation & Depth).
+- **Border:** 1px line white.
+- **Internal Padding:** 5px (`frame-inset`). The table variant removes the padding so its own rules meet the frame.
 
-### Plate
-A laminated print hanging in a slot.
-- **Shape:** 5px radius, 6px white border around a 2px-radius image (the photo plate: 5px border, 4px radius, square crop).
-- **Background:** Laminate white.
-- **Shadow:** Rest at rest, Lift while lifted.
-- **Hover / Focus:** `translateY(-24px)` plus a per-object swing (roughly ±0.7° to ±1.6°, alternating direction across neighbours), 0.5s `cubic-bezier(0.16, 1, 0.3, 1)`.
-- **Load:** settles once from -16px with its swing, 0.75s, staggered 80ms per object after 150ms.
+### View Caption and the Inspection
+Each view is a single link wrapping its frame and caption. The caption is a three-column grid (1.5rem balloon, text, exit) with a 0.6rem column gap, 0.7rem below the frame. The balloon is a 1.5rem outlined circle with the view number in Semi Condensed 700; the name is Title, the one-liner is Body Small in ink-soft; the exit is Semi Condensed 700 caps with the outbound arrow and a transparent 1px underline. The portrait view moves its exit under the text (two-column caption) because its column is narrow; it returns beside the text when views stack.
+- **The inspection (hover / focus-visible on the link):** the balloon fills line white with on-white text and the exit's underline turns line white, both over 0.2s with the ease-out curve. Nothing moves or scales.
 
-### Label-Maker Tape
-White tape with black condensed caps (Label style), 1px radius, tape contact shadow, never wraps. Used for the owner's titles and for tool actions. Action tapes carry a 0.95em outbound-arrow SVG and turn their text live red on hover.
+### Standard-Work Table
+The spec-to-ship process drawn as a table inside a view frame. A table head in Heading Rule caps (0.5rem 0.75rem 0.4rem padding) sits on a 1px line; beneath it five equal columns, each a step with a Semi Condensed 700 numeral at 1.3rem in line white, a bold Barlow term at 0.9375rem in ink, and a Body Table line in ink-soft, divided by hairlines. At 40rem and below the five columns become five hairline-divided rows with numeral, term and text on one baseline.
 
-### Live Plate (primary action)
-The only red object: a live-red plate with white Button text and an outbound arrow, hung in a compact yellow pocket (9px padding, 11px radius). It lifts and swings like any plate. One per board.
+### Title Block
+The drafter's title block, flush with the inner border at the bottom right (top strip on narrow sheets). Every cell carries a field label (Label style, ink-soft, 0.45rem from the top, 0.8rem from the left) and bottom-aligns its content under 1.35rem 0.85rem 0.6rem padding. Cells: portrait; DRAWN BY with the name at Display size; CONTACT with the button; ROLES as Caps separated by 1.5rem; SHEET with the domain and sheet count in ink-soft.
+- **Portrait:** Fills its cell with the blue behind it, object-fit cover, `filter: grayscale(1) contrast(1.18) brightness(0.94)` and `mix-blend-mode: screen` so nothing prints darker than the blue and highlights stay paper white. The cell isolates its blending. A `--portrait-zoom` token (currently 1.4, origin 60% 45%) crops the stand-in photo's backdrop; it is provisional and returns to 1 when the tight headshot lands.
 
-### Standard-Work Card
-A laminated work-instruction sheet used for a tool that is a process rather than a screen. White stock, no padding, clipped. A condensed 0.75rem caps header ruled off by a 2px paint-black line, then numbered steps in equal columns separated by 1px warm-grey rules, each with a stencil numeral, a bold 87.5%-width verb, and a short note. Under 40rem the steps stack as rows.
+### Ruled Section Heading
+An h2 in Heading Rule caps sitting on a 1px line-white rule with 0.4rem beneath the text, followed by its content 0.9rem to 1rem below. Used for NOTES and A FEW THINGS I'VE BUILT; the table head is the same lettering inside a frame.
+
+### Numbered Notes
+The bio as drawing notes: an ordered list with CSS counters, each note a two-column grid (1.6rem numeral gutter, text) with a 0.35rem gap and 0.75rem between notes. Numerals are Semi Condensed 700 at 0.95rem, nudged 0.12em down to sit on the Body baseline.
+
+### Zone Strip
+The border glyphs. Four absolutely positioned grids in the 18px ring: eight cells across the top and bottom, four down each side, each cell a centred Zone glyph in ink-soft, divided by 1px line-white ticks. Aria-hidden and unselectable; it is part of the sheet, not content.
+
+### Icon
+The only icon on the sheet is a 16-unit outbound arrow drawn as an inline SVG symbol (`#icon-out`: a diagonal stroke with a square-capped corner, 1.8 stroke width, currentColor), sized at 0.9em next to the button text and every exit. No other glyphs, icon tiles, or badges appear.
+
+### Motion: the Develop
+The sheet's one authored moment. On load, under `prefers-reduced-motion: no-preference`, `.sheet` animates from 40% opacity to full in 0.9s with `cubic-bezier(0.16, 1, 0.3, 1)`, as a cyanotype develops. State transitions (button fill, balloon fill, exit underline) use the same curve over 0.2s. Nothing else animates; reduced motion skips the develop and keeps the transitions.
+
+### Focus
+Every link: `outline: 2px solid` line white, `outline-offset: 4px`, square. Selection inverts to line white with on-white text.
 
 ## Do's and Don'ts
 
 ### Do:
-- **Do** give every new object its own pocket, slot, hook, and location code, continuing the sequence (A4, A5…).
-- **Do** decide paint or print before setting any text: Big Shoulders Stencil 800 uppercase if painted on the board, Archivo if printed.
-- **Do** keep red to the one live plate, hover on actions, and the 3px focus ring (6px offset).
-- **Do** keep laminated plates and tape white with black ink on the black board.
-- **Do** keep all motion as gravity: settle, lift (-24px with swing), fall back; swap it for a red pocket under reduced motion.
-- **Do** recompute the rack column split whenever a screenshot's aspect ratio changes, so paired plates share one height.
+- **Do** draw every new container as a 1px line-white outline on the blue (1.5px only for the sheet's outer border); use hairline (55% white) for rules that subdivide an object.
+- **Do** decide lettered or read before setting any text: Barlow Semi Condensed uppercase and tracked if a drafter would letter it, Barlow sentence case if it is read.
+- **Do** keep evidence in true colour inside a 5px-inset white frame, and give every view a balloon number, a name, one line, and an exit word with the outbound arrow.
+- **Do** give every title-block cell a field label in the top-left corner, and keep the block flush with the inner border.
+- **Do** keep all motion to the develop on load and 0.2s fill or underline transitions with cubic-bezier(0.16, 1, 0.3, 1).
+- **Do** keep the focus ring 2px line white at 4px offset, square.
 
 ### Don't:
-- **Don't** use gradients, glass, or textures on the board, or add any accent beyond the yellow and the one red.
-- **Don't** put icons in tiles or badges. The only icon is a small inline outbound arrow on tape and the live plate.
-- **Don't** float cards or add shadows to silhouettes, text, or the board. Only hung plates and stuck tape cast shadows.
-- **Don't** slide, fade, or scroll-animate anything in.
-- **Don't** set body copy, descriptions, or buttons in the stencil face, or set painted names and headings in Archivo.
-- **Don't** fall back to the centered avatar, bio, button, and project-card stack.
+- **Don't** add a second colour, a gradient, glass, texture, or any grey that is not a transparency of white.
+- **Don't** add a second solid white fill at rest; the Connect on LinkedIn cell is the only one.
+- **Don't** cast shadows on anything, or lift, scale, or slide anything on hover.
+- **Don't** round corners; the balloon circle is the only curve.
+- **Don't** tint screenshots blue, or show the portrait in colour.
+- **Don't** set a sentence in Barlow Semi Condensed, set a label in Barlow, or introduce a third face or a system display face.
+- **Don't** fade or slide sections in on scroll, or stagger anything; the sheet develops once, whole.
+- **Don't** fall back to the centred avatar, bio, button, and project-card stack.

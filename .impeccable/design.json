@@ -1,72 +1,27 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-25T16:48:28+00:00",
+  "generatedAt": "2026-10-18T00:00:00+00:00",
   "title": "Design System: Ivan Lay",
   "extensions": {
     "colorMeta": {
-      "safety-yellow": {
+      "prussian-blue": {
         "role": "primary",
-        "displayName": "Safety Yellow",
-        "canonical": "#F2C230",
+        "displayName": "Prussian Blue",
+        "canonical": "#163F96",
         "tonalRamp": [
-          "oklch(15.0% 0.158 89.0)",
-          "oklch(26.4% 0.158 89.0)",
-          "oklch(37.9% 0.158 89.0)",
-          "oklch(49.3% 0.158 89.0)",
-          "oklch(60.7% 0.158 89.0)",
-          "oklch(72.1% 0.158 89.0)",
-          "oklch(83.6% 0.158 89.0)",
-          "oklch(95.0% 0.158 89.0)"
+          "oklch(15.0% 0.150 262.6)",
+          "oklch(26.4% 0.150 262.6)",
+          "oklch(37.9% 0.150 262.6)",
+          "oklch(49.3% 0.150 262.6)",
+          "oklch(60.7% 0.150 262.6)",
+          "oklch(72.1% 0.150 262.6)",
+          "oklch(83.6% 0.150 262.6)",
+          "oklch(95.0% 0.150 262.6)"
         ]
       },
-      "paint-black": {
-        "role": "neutral",
-        "displayName": "Paint Black",
-        "canonical": "#1C1C1A",
-        "tonalRamp": [
-          "oklch(15.0% 0.004 106.7)",
-          "oklch(26.4% 0.004 106.7)",
-          "oklch(37.9% 0.004 106.7)",
-          "oklch(49.3% 0.004 106.7)",
-          "oklch(60.7% 0.004 106.7)",
-          "oklch(72.1% 0.004 106.7)",
-          "oklch(83.6% 0.004 106.7)",
-          "oklch(95.0% 0.004 106.7)"
-        ]
-      },
-      "laminate-white": {
-        "role": "neutral",
-        "displayName": "Laminate White",
-        "canonical": "#FBFAF6",
-        "tonalRamp": [
-          "oklch(15.0% 0.005 95.1)",
-          "oklch(26.4% 0.005 95.1)",
-          "oklch(37.9% 0.005 95.1)",
-          "oklch(49.3% 0.005 95.1)",
-          "oklch(60.7% 0.005 95.1)",
-          "oklch(72.1% 0.005 95.1)",
-          "oklch(83.6% 0.005 95.1)",
-          "oklch(95.0% 0.005 95.1)"
-        ]
-      },
-      "live-red": {
-        "role": "secondary",
-        "displayName": "Live Red",
-        "canonical": "#D23D31",
-        "tonalRamp": [
-          "oklch(15.0% 0.160 28.8)",
-          "oklch(26.4% 0.160 28.8)",
-          "oklch(37.9% 0.160 28.8)",
-          "oklch(49.3% 0.160 28.8)",
-          "oklch(60.7% 0.160 28.8)",
-          "oklch(72.1% 0.160 28.8)",
-          "oklch(83.6% 0.160 28.8)",
-          "oklch(95.0% 0.160 28.8)"
-        ]
-      },
-      "live-ink": {
-        "role": "secondary",
-        "displayName": "Live Ink",
+      "line-white": {
+        "role": "primary",
+        "displayName": "Line White",
         "canonical": "#FFFFFF",
         "tonalRamp": [
           "oklch(15.0% 0.000 89.9)",
@@ -79,266 +34,264 @@
           "oklch(95.0% 0.000 89.9)"
         ]
       },
-      "foam-black": {
+      "hairline": {
         "role": "neutral",
-        "displayName": "Foam Black",
-        "canonical": "#1B1C1A",
+        "displayName": "Hairline",
+        "canonical": "rgb(255 255 255 / 0.55)",
         "tonalRamp": [
-          "oklch(15.0% 0.004 128.7)",
-          "oklch(26.4% 0.004 128.7)",
-          "oklch(37.9% 0.004 128.7)",
-          "oklch(49.3% 0.004 128.7)",
-          "oklch(60.7% 0.004 128.7)",
-          "oklch(72.1% 0.004 128.7)",
-          "oklch(83.6% 0.004 128.7)",
-          "oklch(95.0% 0.004 128.7)"
+          "rgb(255 255 255 / 0.10)",
+          "rgb(255 255 255 / 0.20)",
+          "rgb(255 255 255 / 0.30)",
+          "rgb(255 255 255 / 0.40)",
+          "rgb(255 255 255 / 0.55)",
+          "rgb(255 255 255 / 0.70)",
+          "rgb(255 255 255 / 0.85)",
+          "rgb(255 255 255 / 1)"
         ]
       },
-      "foam-ink": {
+      "ink": {
         "role": "neutral",
-        "displayName": "Foam Ink",
-        "canonical": "#ECE8DC",
+        "displayName": "Ink",
+        "canonical": "#F5F8FF",
         "tonalRamp": [
-          "oklch(15.0% 0.017 91.6)",
-          "oklch(26.4% 0.017 91.6)",
-          "oklch(37.9% 0.017 91.6)",
-          "oklch(49.3% 0.017 91.6)",
-          "oklch(60.7% 0.017 91.6)",
-          "oklch(72.1% 0.017 91.6)",
-          "oklch(83.6% 0.017 91.6)",
-          "oklch(95.0% 0.017 91.6)"
+          "oklch(15.0% 0.010 267.4)",
+          "oklch(26.4% 0.010 267.4)",
+          "oklch(37.9% 0.010 267.4)",
+          "oklch(49.3% 0.010 267.4)",
+          "oklch(60.7% 0.010 267.4)",
+          "oklch(72.1% 0.010 267.4)",
+          "oklch(83.6% 0.010 267.4)",
+          "oklch(95.0% 0.010 267.4)"
         ]
       },
-      "foam-ink-soft": {
+      "ink-soft": {
         "role": "neutral",
-        "displayName": "Foam Ink Soft",
-        "canonical": "#C2BBA7",
+        "displayName": "Ink Soft",
+        "canonical": "#C7D5F5",
         "tonalRamp": [
-          "oklch(15.0% 0.029 90.9)",
-          "oklch(26.4% 0.029 90.9)",
-          "oklch(37.9% 0.029 90.9)",
-          "oklch(49.3% 0.029 90.9)",
-          "oklch(60.7% 0.029 90.9)",
-          "oklch(72.1% 0.029 90.9)",
-          "oklch(83.6% 0.029 90.9)",
-          "oklch(95.0% 0.029 90.9)"
+          "oklch(15.0% 0.047 266.7)",
+          "oklch(26.4% 0.047 266.7)",
+          "oklch(37.9% 0.047 266.7)",
+          "oklch(49.3% 0.047 266.7)",
+          "oklch(60.7% 0.047 266.7)",
+          "oklch(72.1% 0.047 266.7)",
+          "oklch(83.6% 0.047 266.7)",
+          "oklch(95.0% 0.047 266.7)"
+        ]
+      },
+      "on-white": {
+        "role": "neutral",
+        "displayName": "On White",
+        "canonical": "#163F96",
+        "tonalRamp": [
+          "oklch(15.0% 0.150 262.6)",
+          "oklch(26.4% 0.150 262.6)",
+          "oklch(37.9% 0.150 262.6)",
+          "oklch(49.3% 0.150 262.6)",
+          "oklch(60.7% 0.150 262.6)",
+          "oklch(72.1% 0.150 262.6)",
+          "oklch(83.6% 0.150 262.6)",
+          "oklch(95.0% 0.150 262.6)"
+        ]
+      },
+      "white-hover": {
+        "role": "neutral",
+        "displayName": "White Hover",
+        "canonical": "#E2EAFF",
+        "tonalRamp": [
+          "oklch(15.0% 0.030 269.1)",
+          "oklch(26.4% 0.030 269.1)",
+          "oklch(37.9% 0.030 269.1)",
+          "oklch(49.3% 0.030 269.1)",
+          "oklch(60.7% 0.030 269.1)",
+          "oklch(72.1% 0.030 269.1)",
+          "oklch(83.6% 0.030 269.1)",
+          "oklch(95.0% 0.030 269.1)"
         ]
       }
     },
     "typographyMeta": {
-      "display": {
-        "displayName": "Display (painted)",
-        "purpose": "The owner's name only."
-      },
-      "headline": {
-        "displayName": "Headline (printed)",
-        "purpose": "The one-sentence pitch."
-      },
-      "title": {
-        "displayName": "Title (painted)",
-        "purpose": "Section headings painted on the board."
-      },
-      "pocket-label": {
-        "displayName": "Pocket Label (painted)",
-        "purpose": "Tool names inside the silhouette, fixed 2rem strip."
-      },
-      "location-code": {
-        "displayName": "Location Code (painted)",
-        "purpose": "A1, A2... on the pocket floor, revealed on lift."
-      },
-      "body": {
-        "displayName": "Body (printed)",
-        "purpose": "Bio copy, max 34em."
-      },
-      "body-small": {
-        "displayName": "Body Small (printed)",
-        "purpose": "Tool descriptions, max 34ch, foam-ink-soft ink."
-      },
-      "label": {
-        "displayName": "Tape Label (printed)",
-        "purpose": "Label-maker tape: titles and actions."
-      },
-      "button": {
-        "displayName": "Live Plate (printed)",
-        "purpose": "The single primary action."
-      }
+      "display": { "displayName": "Display (lettered)", "purpose": "The owner's name in the DRAWN BY cell only; uppercase. 1.9rem at or below 24rem." },
+      "headline": { "displayName": "Headline (read)", "purpose": "The one-sentence pitch at the top of the brief; balanced, max 15em (17em single column)." },
+      "title": { "displayName": "Title (read)", "purpose": "View names in captions." },
+      "body": { "displayName": "Body (read)", "purpose": "The numbered notes; max 58ch." },
+      "body-small": { "displayName": "Body Small (read)", "purpose": "View one-liners in ink-soft; max 32ch." },
+      "body-table": { "displayName": "Body Table (read)", "purpose": "Step text in the standard-work table, ink-soft; bold term Barlow 600 0.9375rem in ink. 0.75rem on short desktops." },
+      "button": { "displayName": "Button (read)", "purpose": "The one white cell." },
+      "heading-rule": { "displayName": "Heading Rule (lettered)", "purpose": "Section heads on a 1px rule and the table head; uppercase." },
+      "label": { "displayName": "Field Label (lettered)", "purpose": "Top-left label in every title-block cell; uppercase, ink-soft." },
+      "caps": { "displayName": "Caps (lettered)", "purpose": "Roles and sheet number in the title block; uppercase." },
+      "exit": { "displayName": "Exit (lettered)", "purpose": "PLAY / OPEN / GITHUB with the outbound arrow; uppercase, underlined on inspection." },
+      "balloon": { "displayName": "Balloon (lettered)", "purpose": "The number inside a view balloon." },
+      "numeral": { "displayName": "Step Numeral (lettered)", "purpose": "Table step numbers in line white; 1.1rem on short desktops and stacked rows." },
+      "numeral-note": { "displayName": "Note Numeral (lettered)", "purpose": "Note counters in the brief, nudged 0.12em to the body baseline." },
+      "zone": { "displayName": "Zone Glyph (lettered)", "purpose": "Border glyphs 1 to 8 and A to D, aria-hidden, ink-soft; 0.5rem at or below 68rem." }
     },
-    "shadows": [
-      {
-        "name": "rest",
-        "value": "0 1px 2px rgb(0 0 0 / 0.4)",
-        "purpose": "A plate hanging flush on its hook."
-      },
-      {
-        "name": "lift",
-        "value": "0 12px 16px -12px rgb(0 0 0 / 0.7), 0 2px 4px rgb(0 0 0 / 0.3)",
-        "purpose": "A plate lifted off its hook."
-      },
-      {
-        "name": "tape",
-        "value": "0 1px 1px rgb(28 28 26 / 0.22)",
-        "purpose": "Label tape stuck to the board."
-      }
-    ],
+    "shadows": [],
     "motion": [
       {
         "name": "ease-out",
         "value": "cubic-bezier(0.16, 1, 0.3, 1)",
-        "purpose": "All gravity motion."
+        "purpose": "The only easing curve: the develop and every 0.2s state transition."
       },
       {
-        "name": "lift",
-        "value": "transform: translateY(-24px) rotate(var(--swing)); 0.5s ease-out",
-        "purpose": "Hover/focus on a hung plate (hover-capable pointers only). Swing roughly ±0.7° to ±1.6°, alternating across neighbours."
+        "name": "develop",
+        "value": "@keyframes develop { from { opacity: 0.4 } } on .sheet; 0.9s ease-out both; prefers-reduced-motion: no-preference only",
+        "purpose": "The one authored moment: the whole sheet comes up from 40% to full on load, as a cyanotype develops. Skipped under reduced motion."
       },
       {
-        "name": "settle",
-        "value": "from translateY(-16px) rotate(var(--swing)); 0.75s ease-out; delay calc(var(--i) * 80ms + 150ms)",
-        "purpose": "Plates drop into their outlines once on load."
+        "name": "inspection",
+        "value": "background-color 0.2s, color 0.2s, border-color 0.2s ease-out",
+        "purpose": "Hover or focus-visible on a view link fills its balloon line white with on-white text and turns the exit underline line white. Nothing moves."
       },
       {
-        "name": "reduced-motion",
-        "value": "pocket background -> live red, 0.2s ease-out",
-        "purpose": "Replaces lift and settle under prefers-reduced-motion: reduce."
-      },
-      {
-        "name": "tape-hover",
-        "value": "color 0.2s ease-out",
-        "purpose": "Action tape text turns live red."
+        "name": "button-hover",
+        "value": "background-color 0.2s ease-out to white-hover",
+        "purpose": "The one white cell shifts to a slightly blued white."
       }
     ],
     "breakpoints": [
       {
+        "name": "short-desktop",
+        "value": "(min-width: 68.0625rem) and (max-height: 860px)",
+        "purpose": "Margin 10px, ring 14px, pad 16px; tighter row gaps, captions, table padding and title block (5.75rem/9rem columns, 5.75rem/3rem rows) so the title block stays in view at 1280x800."
+      },
+      {
         "name": "single-column",
         "value": "68rem",
-        "purpose": "Board collapses to one 46rem column; pocket-pad 20px."
+        "purpose": "Ring 14px, zone glyphs 0.5rem. Field becomes one column: title block, brief, views. Title block moves to the top strip (6rem portrait, 1fr) with roles and contact rows; SHEET cell dropped; brief max 40rem."
       },
       {
-        "name": "narrow",
+        "name": "stacked-views",
         "value": "40rem",
-        "purpose": "One tool per row; card steps stack; pocket-pad 16px; body 1rem."
+        "purpose": "Views stack 1, 2, 3; portrait frame max 15rem; table becomes five hairline-divided rows with numeral, term, text on one baseline."
       },
       {
-        "name": "tiny",
-        "value": "22rem",
-        "purpose": "Photo stacks above name."
+        "name": "small-title-block",
+        "value": "24rem",
+        "purpose": "Portrait cell 5rem; name 1.9rem."
       }
     ],
     "focus": {
-      "value": "outline: 3px solid var(--live); outline-offset: 6px; border-radius: 16px",
-      "purpose": "Every link; the ring follows the pocket curve."
+      "value": "outline: 2px solid var(--line); outline-offset: 4px",
+      "purpose": "Every link, square-cornered. Selection inverts: line white background, on-white text."
+    },
+    "portrait": {
+      "value": "filter: grayscale(1) contrast(1.18) brightness(0.94); mix-blend-mode: screen; transform: scale(var(--portrait-zoom)); transform-origin: 60% 45%; cell background var(--sheet) with isolation: isolate",
+      "purpose": "The portrait takes the cyanotype process: nothing prints darker than the blue, highlights stay paper white. --portrait-zoom (1.4) is a provisional crop for the 200px stand-in; set to 1 when the tight headshot lands."
     }
   },
   "components": [
     {
-      "name": "Pocket with Hung Plate",
-      "kind": "custom",
-      "refersTo": "pocket",
-      "description": "The signature: a yellow pocket cut into the black foam with hook, slot outline, location code and a laminated plate that lifts and swings on hover or focus.",
-      "html": "<a class=\"ds-tool\" href=\"#\"><span class=\"ds-pocket\" style=\"width:280px\"><span class=\"ds-slot\"><span class=\"ds-hook\"></span><span class=\"ds-code\">A1</span><span class=\"ds-plate\"><span style=\"display:block;aspect-ratio:3/2;background:#2a2540;border-radius:2px\"></span></span></span><span class=\"ds-label\">DiceWars JS</span></span></a>",
-      "css": ":host{--board:#1B1C1A;--pocket:#F2C230;--on-pocket:#1B1C1A;--engrave:#F2C230;--ink:#ECE8DC;--ink-soft:#C2BBA7;--laminate:#FBFAF6;--tape:#FBFAF6;--tape-ink:#1C1C1A;--paint:#1C1C1A;--live:#D23D31;--live-ink:#FFFFFF;--rest:0 1px 2px rgb(0 0 0 / 0.4);--lift:0 12px 16px -12px rgb(0 0 0 / 0.7), 0 2px 4px rgb(0 0 0 / 0.3);--font-paint:'Big Shoulders Stencil','Arial Narrow',sans-serif;--font-print:'Archivo',system-ui,sans-serif;--ease-out:cubic-bezier(0.16, 1, 0.3, 1);--pocket-pad:24px}.ds-pocket{display:block;background:var(--pocket);border-radius:16px;padding:var(--pocket-pad) var(--pocket-pad) 12px}.ds-slot{position:relative;display:block}.ds-slot::before{content:'';position:absolute;inset:3px 3px 9px;border:2px solid var(--on-pocket);border-radius:5px}.ds-code{position:absolute;left:50%;bottom:2px;transform:translateX(-50%);padding:0 6px;background:var(--pocket);color:var(--on-pocket);font:800 1rem/1 var(--font-paint);letter-spacing:.08em}.ds-hook{position:absolute;left:50%;top:calc(7px - var(--pocket-pad));width:10px;height:calc(var(--pocket-pad) - 7px);transform:translateX(-50%)}.ds-hook::before,.ds-hook::after{content:'';position:absolute;left:50%;transform:translateX(-50%);background:var(--on-pocket)}.ds-hook::before{top:0;width:10px;height:10px;border-radius:50%}.ds-hook::after{top:6px;bottom:0;width:3px}.ds-label{display:block;height:2rem;padding:.7rem 0 0;color:var(--on-pocket);font:800 1.3rem/1 var(--font-paint);letter-spacing:.02em;text-transform:uppercase}.ds-plate{position:relative;z-index:1;display:block;background:var(--laminate);border-radius:5px;padding:6px;box-shadow:var(--rest);transform-origin:50% 0;transition:transform .5s var(--ease-out),box-shadow .5s var(--ease-out)}.ds-tool:hover .ds-plate,.ds-tool:focus-visible .ds-plate{transform:translateY(-24px) rotate(-1.4deg);box-shadow:var(--lift)}.ds-tool{display:inline-block;color:inherit;text-decoration:none}.ds-tool:focus-visible{outline:3px solid var(--live);outline-offset:6px;border-radius:16px}"
-    },
-    {
-      "name": "Label-Maker Tape",
-      "kind": "chip",
-      "refersTo": "tape",
-      "description": "White tape with condensed black caps for titles and tool actions; action tapes turn red on hover.",
-      "html": "<span class=\"ds-tape\">Operations Manager</span> <a class=\"ds-tape ds-tape--action\" href=\"#\">Play <svg class=\"ds-icon\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M4.5 11.5 11.5 4.5M5.75 4.5h5.75v5.75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.9\" stroke-linecap=\"square\"/></svg></a>",
-      "css": ":host{--board:#1B1C1A;--pocket:#F2C230;--on-pocket:#1B1C1A;--engrave:#F2C230;--ink:#ECE8DC;--ink-soft:#C2BBA7;--laminate:#FBFAF6;--tape:#FBFAF6;--tape-ink:#1C1C1A;--paint:#1C1C1A;--live:#D23D31;--live-ink:#FFFFFF;--rest:0 1px 2px rgb(0 0 0 / 0.4);--lift:0 12px 16px -12px rgb(0 0 0 / 0.7), 0 2px 4px rgb(0 0 0 / 0.3);--font-paint:'Big Shoulders Stencil','Arial Narrow',sans-serif;--font-print:'Archivo',system-ui,sans-serif;--ease-out:cubic-bezier(0.16, 1, 0.3, 1);--pocket-pad:24px}.ds-tape{display:inline-flex;align-items:center;gap:.45em;background:var(--tape);color:var(--tape-ink);font-family:var(--font-print);font-stretch:75%;font-weight:650;font-size:.78rem;line-height:1.2;letter-spacing:.08em;text-transform:uppercase;padding:.34em .7em .3em;border-radius:1px;box-shadow:0 1px 1px rgb(28 28 26 / .22);white-space:nowrap}.ds-icon{width:.95em;height:.95em;flex:none}.ds-tape--action{font-size:.8rem;text-decoration:none;transition:color .2s ease-out}.ds-tape--action:hover{color:var(--live)}.ds-tape--action:focus-visible{outline:3px solid var(--live);outline-offset:6px}"
-    },
-    {
-      "name": "Live Plate (Primary Button)",
+      "name": "Connect Button (the one white cell)",
       "kind": "button",
-      "refersTo": "plate-live",
-      "description": "The single red element: the primary exit, hung in a compact yellow pocket.",
-      "html": "<a class=\"ds-cta\" href=\"#\"><span class=\"ds-plate ds-live\">Connect on LinkedIn <svg class=\"ds-icon\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M4.5 11.5 11.5 4.5M5.75 4.5h5.75v5.75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.9\" stroke-linecap=\"square\"/></svg></span></a>",
-      "css": ":host{--board:#1B1C1A;--pocket:#F2C230;--on-pocket:#1B1C1A;--engrave:#F2C230;--ink:#ECE8DC;--ink-soft:#C2BBA7;--laminate:#FBFAF6;--tape:#FBFAF6;--tape-ink:#1C1C1A;--paint:#1C1C1A;--live:#D23D31;--live-ink:#FFFFFF;--rest:0 1px 2px rgb(0 0 0 / 0.4);--lift:0 12px 16px -12px rgb(0 0 0 / 0.7), 0 2px 4px rgb(0 0 0 / 0.3);--font-paint:'Big Shoulders Stencil','Arial Narrow',sans-serif;--font-print:'Archivo',system-ui,sans-serif;--ease-out:cubic-bezier(0.16, 1, 0.3, 1);--pocket-pad:24px}.ds-plate{position:relative;z-index:1;display:block;background:var(--laminate);border-radius:5px;padding:6px;box-shadow:var(--rest);transform-origin:50% 0;transition:transform .5s var(--ease-out),box-shadow .5s var(--ease-out)}.ds-cta{display:inline-block;background:var(--pocket);border-radius:11px;padding:9px;text-decoration:none}.ds-live{display:flex;align-items:center;gap:.7rem;background:var(--live);color:var(--live-ink);padding:1rem 1.4rem .95rem;border-radius:4px;font-family:var(--font-print);font-stretch:75%;font-weight:750;font-size:1.05rem;line-height:1;letter-spacing:.07em;text-transform:uppercase}.ds-icon{width:.95em;height:.95em}.ds-cta:hover .ds-plate,.ds-cta:focus-visible .ds-plate{transform:translateY(-24px) rotate(-1deg);box-shadow:var(--lift)}.ds-cta:focus-visible{outline:3px solid var(--live);outline-offset:6px;border-radius:16px}"
+      "refersTo": "button-primary",
+      "description": "The single solid white fill on the sheet: the primary exit, blue lettering, outbound arrow at the far right.",
+      "html": "<div class=\"ds-cell\"><span class=\"ds-cell__label\">Contact</span><a class=\"ds-button\" href=\"#\">Connect on LinkedIn <svg class=\"ds-icon\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M4.5 11.5 11.5 4.5M5.75 4.5h5.75v5.75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"square\"/></svg></a></div>",
+      "css": ":host{--sheet:#163F96;--line:#FFFFFF;--hair:rgb(255 255 255 / 0.55);--ink:#F5F8FF;--ink-2:#C7D5F5;--on-white:#163F96;--white-hover:#E2EAFF;--font:'Barlow',system-ui,sans-serif;--font-caps:'Barlow Semi Condensed','Barlow',system-ui,sans-serif;--ease-out:cubic-bezier(0.16,1,0.3,1)}.ds-cell{position:relative;width:13.75rem;height:6.5rem;padding:1.35rem .85rem .6rem;background:var(--sheet);border:1px solid var(--line);display:flex;flex-direction:column;justify-content:flex-end;font-family:var(--font);color:var(--ink)}.ds-cell__label{position:absolute;top:.45rem;left:.8rem;font-family:var(--font-caps);font-weight:600;font-size:.6875rem;letter-spacing:.14em;line-height:1;text-transform:uppercase;color:var(--ink-2)}.ds-button{display:flex;align-items:center;justify-content:space-between;gap:.75rem;width:100%;height:2.875rem;padding:0 1rem;background:var(--line);color:var(--on-white);font-family:var(--font);font-weight:600;font-size:.9375rem;line-height:1;white-space:nowrap;text-decoration:none;transition:background-color .2s var(--ease-out)}.ds-button:hover{background:var(--white-hover)}.ds-button:focus-visible{outline:2px solid var(--line);outline-offset:4px}.ds-icon{width:.9em;height:.9em;flex:none}"
     },
     {
-      "name": "Standard-Work Card",
+      "name": "View with Inspection",
       "kind": "card",
-      "refersTo": "plate-card",
-      "description": "A laminated work-instruction sheet for a tool that is a process: ruled header, numbered steps with stencil numerals.",
-      "html": "<div class=\"ds-card\"><span class=\"ds-card__head\">Standard work</span><ol class=\"ds-steps\"><li><b>spec</b><span>Stress-test the idea</span></li><li><b>prd</b><span>Write it up</span></li><li><b>issues</b><span>Cut grabbable tickets</span></li></ol></div>",
-      "css": ":host{--board:#1B1C1A;--pocket:#F2C230;--on-pocket:#1B1C1A;--engrave:#F2C230;--ink:#ECE8DC;--ink-soft:#C2BBA7;--laminate:#FBFAF6;--tape:#FBFAF6;--tape-ink:#1C1C1A;--paint:#1C1C1A;--live:#D23D31;--live-ink:#FFFFFF;--rest:0 1px 2px rgb(0 0 0 / 0.4);--lift:0 12px 16px -12px rgb(0 0 0 / 0.7), 0 2px 4px rgb(0 0 0 / 0.3);--font-paint:'Big Shoulders Stencil','Arial Narrow',sans-serif;--font-print:'Archivo',system-ui,sans-serif;--ease-out:cubic-bezier(0.16, 1, 0.3, 1);--pocket-pad:24px}.ds-card{background:var(--laminate);color:var(--paint);border-radius:5px;overflow:hidden;box-shadow:var(--rest);font-family:var(--font-print);max-width:520px}.ds-card__head{display:block;margin:.75rem .9rem 0;padding-bottom:.45rem;border-bottom:2px solid var(--paint);font-stretch:75%;font-weight:700;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase}.ds-steps{list-style:none;margin:0;padding:0;counter-reset:step;display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}.ds-steps li{counter-increment:step;display:flex;flex-direction:column;gap:.2rem;padding:.65rem .8rem .75rem;font-size:.84rem;line-height:1.3;color:#45463F}.ds-steps li+li{border-left:1px solid #D9D6CB}.ds-steps li::before{content:counter(step);font:800 1.45rem/1 var(--font-paint);color:var(--paint);margin-bottom:.2rem}.ds-steps b{font-stretch:87.5%;font-weight:750;font-size:.95rem;color:var(--paint)}"
+      "refersTo": "view-frame",
+      "description": "The signature: a piece of evidence in a 1px white frame with a 5px inset, captioned with a balloon number, name, one line and an exit word. Hover or focus fills the balloon and underlines the exit.",
+      "html": "<a class=\"ds-view\" href=\"#\"><span class=\"ds-frame\"><span style=\"display:block;aspect-ratio:3/2;background:#2a2540\"></span></span><span class=\"ds-caption\"><span class=\"ds-balloon\" aria-hidden=\"true\">1</span><span class=\"ds-caption__text\"><span class=\"ds-view__name\">DiceWars JS</span><span class=\"ds-view__desc\">A browser port of Dice Wars, with a bot SDK and AI arena.</span></span><span class=\"ds-exit\">Play <svg class=\"ds-icon\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M4.5 11.5 11.5 4.5M5.75 4.5h5.75v5.75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"square\"/></svg></span></span></a>",
+      "css": ":host{--sheet:#163F96;--line:#FFFFFF;--hair:rgb(255 255 255 / 0.55);--ink:#F5F8FF;--ink-2:#C7D5F5;--on-white:#163F96;--white-hover:#E2EAFF;--font:'Barlow',system-ui,sans-serif;--font-caps:'Barlow Semi Condensed','Barlow',system-ui,sans-serif;--ease-out:cubic-bezier(0.16,1,0.3,1)}.ds-view{display:block;width:320px;padding:16px;background:var(--sheet);color:var(--ink);font-family:var(--font);text-decoration:none}.ds-view:focus-visible{outline:2px solid var(--line);outline-offset:4px}.ds-frame{display:block;border:1px solid var(--line);padding:5px}.ds-caption{display:grid;grid-template-columns:1.5rem minmax(0,1fr) auto;column-gap:.6rem;align-items:start;margin-top:.7rem}.ds-balloon{width:1.5rem;height:1.5rem;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;font-family:var(--font-caps);font-weight:700;font-size:.75rem;line-height:1;transition:background-color .2s var(--ease-out),color .2s var(--ease-out)}.ds-caption__text{display:block;min-width:0}.ds-view__name{display:block;font-weight:600;font-size:1.0625rem;line-height:1.3}.ds-view__desc{display:block;margin-top:.15rem;font-size:.875rem;line-height:1.4;color:var(--ink-2);max-width:32ch}.ds-exit{display:inline-flex;align-items:center;gap:.35rem;padding-top:.25rem;font-family:var(--font-caps);font-weight:700;font-size:.75rem;letter-spacing:.12em;line-height:1;text-transform:uppercase;border-bottom:1px solid transparent;transition:border-color .2s var(--ease-out)}.ds-view:hover .ds-balloon,.ds-view:focus-visible .ds-balloon{background:var(--line);color:var(--on-white)}.ds-view:hover .ds-exit,.ds-view:focus-visible .ds-exit{border-bottom-color:var(--line)}.ds-icon{width:.9em;height:.9em;flex:none}"
     },
     {
-      "name": "Painted Name",
+      "name": "Standard-Work Table",
       "kind": "custom",
-      "refersTo": "display",
-      "description": "The owner's name stenciled in safety yellow on the foam board at display scale, one word per line.",
-      "html": "<h1 class=\"ds-name\"><span>Ivan</span><span>Lay</span></h1>",
-      "css": ":host{--board:#1B1C1A;--pocket:#F2C230;--on-pocket:#1B1C1A;--engrave:#F2C230;--ink:#ECE8DC;--ink-soft:#C2BBA7;--laminate:#FBFAF6;--tape:#FBFAF6;--tape-ink:#1C1C1A;--paint:#1C1C1A;--live:#D23D31;--live-ink:#FFFFFF;--rest:0 1px 2px rgb(0 0 0 / 0.4);--lift:0 12px 16px -12px rgb(0 0 0 / 0.7), 0 2px 4px rgb(0 0 0 / 0.3);--font-paint:'Big Shoulders Stencil','Arial Narrow',sans-serif;--font-print:'Archivo',system-ui,sans-serif;--ease-out:cubic-bezier(0.16, 1, 0.3, 1);--pocket-pad:24px}.ds-name{margin:0;font-family:var(--font-paint);font-weight:800;font-size:clamp(3.5rem,1.6rem + 4.6vw,6rem);line-height:.86;letter-spacing:.01em;text-transform:uppercase;color:var(--engrave)}.ds-name span{display:block}"
+      "refersTo": "table-head",
+      "description": "A process drawn as a table inside a view frame: ruled head in lettered caps, five hairline-divided steps with a large numeral, a bold term and one line.",
+      "html": "<span class=\"ds-table\"><span class=\"ds-table__head\">Standard work</span><ol class=\"ds-steps\"><li><b>spec</b> <span>Stress-test the idea</span></li><li><b>prd</b> <span>Write it up</span></li><li><b>issues</b> <span>Cut grabbable tickets</span></li><li><b>triage</b> <span>Route to agent or human</span></li><li><b>AFK loop</b> <span>An agent picks it up</span></li></ol></span>",
+      "css": ":host{--sheet:#163F96;--line:#FFFFFF;--hair:rgb(255 255 255 / 0.55);--ink:#F5F8FF;--ink-2:#C7D5F5;--on-white:#163F96;--white-hover:#E2EAFF;--font:'Barlow',system-ui,sans-serif;--font-caps:'Barlow Semi Condensed','Barlow',system-ui,sans-serif;--ease-out:cubic-bezier(0.16,1,0.3,1)}.ds-table{display:block;width:420px;border:1px solid var(--line);background:var(--sheet);color:var(--ink);font-family:var(--font)}.ds-table__head{display:block;padding:.5rem .75rem .4rem;border-bottom:1px solid var(--line);font-family:var(--font-caps);font-weight:600;font-size:.6875rem;letter-spacing:.16em;line-height:1;text-transform:uppercase}.ds-steps{list-style:none;margin:0;padding:0;counter-reset:step;display:grid;grid-template-columns:repeat(5,minmax(0,1fr))}.ds-steps li{counter-increment:step;display:flex;flex-direction:column;gap:.15rem;padding:.55rem .65rem .7rem;font-size:.8125rem;line-height:1.3;color:var(--ink-2)}.ds-steps li+li{border-left:1px solid var(--hair)}.ds-steps li::before{content:counter(step);font-family:var(--font-caps);font-weight:700;font-size:1.3rem;line-height:1;color:var(--line);margin-bottom:.3rem}.ds-steps b{font-weight:600;font-size:.9375rem;color:var(--ink)}"
+    },
+    {
+      "name": "Title Block",
+      "kind": "custom",
+      "refersTo": "cell-label",
+      "description": "The drafter's title block: a cell grid in 1px white rules, every cell carrying a field label, the portrait screened onto the blue, the name at display size, the one white cell, roles and sheet number.",
+      "html": "<div class=\"ds-tb\"><div class=\"ds-tb__cell ds-tb__photo\"><span class=\"ds-tb__portrait\"></span></div><div class=\"ds-tb__cell ds-tb__title\"><span class=\"ds-tb__label\">Drawn by</span><span class=\"ds-tb__name\">Ivan Lay</span></div><div class=\"ds-tb__cell ds-tb__contact\"><span class=\"ds-tb__label\">Contact</span><a class=\"ds-tb__button\" href=\"#\">Connect on LinkedIn <svg class=\"ds-icon\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M4.5 11.5 11.5 4.5M5.75 4.5h5.75v5.75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"square\"/></svg></a></div><div class=\"ds-tb__cell ds-tb__roles\"><span class=\"ds-tb__label\">Roles</span><span class=\"ds-tb__caps\"><span>Operations Manager</span><span>AI &amp; Automation Leader</span></span></div><div class=\"ds-tb__cell ds-tb__sheet\"><span class=\"ds-tb__label\">Sheet</span><span class=\"ds-tb__caps ds-tb__caps--soft\">ivanlay.com &middot; 1 of 1</span></div></div>",
+      "css": ":host{--sheet:#163F96;--line:#FFFFFF;--hair:rgb(255 255 255 / 0.55);--ink:#F5F8FF;--ink-2:#C7D5F5;--on-white:#163F96;--white-hover:#E2EAFF;--font:'Barlow',system-ui,sans-serif;--font-caps:'Barlow Semi Condensed','Barlow',system-ui,sans-serif;--ease-out:cubic-bezier(0.16,1,0.3,1)}.ds-tb{display:grid;grid-template-columns:6.5rem 10.5rem minmax(0,1fr) 13.75rem;grid-template-rows:6.5rem 3.25rem;width:37.5rem;max-width:100%;background:var(--sheet);color:var(--ink);font-family:var(--font);border:1px solid var(--line)}.ds-tb__cell{position:relative;min-width:0;padding:1.35rem .85rem .6rem;border-right:1px solid var(--line);border-bottom:1px solid var(--line);display:flex;flex-direction:column;justify-content:flex-end}.ds-tb__photo{grid-column:1;grid-row:1;padding:0;overflow:hidden;background:var(--sheet);isolation:isolate}.ds-tb__portrait{display:block;width:100%;height:100%;background:radial-gradient(circle at 50% 40%,#fff 0,#9fb3e0 28%,#163F96 70%);filter:grayscale(1) contrast(1.18) brightness(.94);mix-blend-mode:screen}.ds-tb__title{grid-column:2/4;grid-row:1}.ds-tb__contact{grid-column:4;grid-row:1;border-right:0}.ds-tb__roles{grid-column:1/4;grid-row:2;border-bottom:0}.ds-tb__sheet{grid-column:4;grid-row:2;border-right:0;border-bottom:0}.ds-tb__label{position:absolute;top:.45rem;left:.8rem;font-family:var(--font-caps);font-weight:600;font-size:.6875rem;letter-spacing:.14em;line-height:1;text-transform:uppercase;color:var(--ink-2)}.ds-tb__name{font-family:var(--font-caps);font-weight:700;font-size:2.6rem;line-height:.95;letter-spacing:-.01em;text-transform:uppercase;color:var(--line)}.ds-tb__button{display:flex;align-items:center;justify-content:space-between;gap:.75rem;width:100%;height:2.875rem;padding:0 1rem;background:var(--line);color:var(--on-white);font-weight:600;font-size:.9375rem;line-height:1;white-space:nowrap;text-decoration:none;transition:background-color .2s var(--ease-out)}.ds-tb__button:hover{background:var(--white-hover)}.ds-tb__button:focus-visible{outline:2px solid var(--line);outline-offset:4px}.ds-tb__caps{display:flex;flex-wrap:wrap;gap:.25rem 1.5rem;font-family:var(--font-caps);font-weight:600;font-size:.8125rem;letter-spacing:.08em;line-height:1.2;text-transform:uppercase;white-space:nowrap}.ds-tb__caps--soft{color:var(--ink-2)}.ds-icon{width:.9em;height:.9em;flex:none}"
+    },
+    {
+      "name": "Ruled Heading with Notes",
+      "kind": "custom",
+      "refersTo": "heading-rule",
+      "description": "A section head in lettered caps on a 1px white rule, followed by the bio as numbered drawing notes with Semi Condensed numerals.",
+      "html": "<section class=\"ds-brief\"><h2 class=\"ds-rule-title\">Notes</h2><ol class=\"ds-notes\"><li>For 12+ years I’ve worked in support ops, bringing AI and automation into high-profile technical teams.</li><li>I’d rather ship the tool than write a roadmap about it. Here are a few of them.</li></ol></section>",
+      "css": ":host{--sheet:#163F96;--line:#FFFFFF;--hair:rgb(255 255 255 / 0.55);--ink:#F5F8FF;--ink-2:#C7D5F5;--on-white:#163F96;--white-hover:#E2EAFF;--font:'Barlow',system-ui,sans-serif;--font-caps:'Barlow Semi Condensed','Barlow',system-ui,sans-serif;--ease-out:cubic-bezier(0.16,1,0.3,1)}.ds-brief{width:420px;padding:16px;background:var(--sheet);color:var(--ink);font-family:var(--font);font-size:1rem;line-height:1.55}.ds-rule-title{margin:0;padding-bottom:.4rem;border-bottom:1px solid var(--line);font-family:var(--font-caps);font-weight:600;font-size:.6875rem;letter-spacing:.16em;line-height:1;text-transform:uppercase;color:var(--ink)}.ds-notes{list-style:none;margin:.9rem 0 0;padding:0;counter-reset:note;max-width:58ch}.ds-notes li{counter-increment:note;display:grid;grid-template-columns:1.6rem minmax(0,1fr);column-gap:.35rem;margin-top:.75rem}.ds-notes li::before{content:counter(note) '.';font-family:var(--font-caps);font-weight:700;font-size:.95rem;padding-top:.12em}"
+    },
+    {
+      "name": "Zone Strip",
+      "kind": "nav",
+      "refersTo": "zone-glyph",
+      "description": "The sheet's zoned border: a strip of numbered cells between the 1.5px outer border and the 1px inner border, divided by 1px ticks. Decoration that belongs to the sheet, aria-hidden.",
+      "html": "<div class=\"ds-sheet\"><div class=\"ds-zone\" aria-hidden=\"true\"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span></div><div class=\"ds-field\"></div></div>",
+      "css": ":host{--sheet:#163F96;--line:#FFFFFF;--hair:rgb(255 255 255 / 0.55);--ink:#F5F8FF;--ink-2:#C7D5F5;--on-white:#163F96;--white-hover:#E2EAFF;--font:'Barlow',system-ui,sans-serif;--font-caps:'Barlow Semi Condensed','Barlow',system-ui,sans-serif;--ease-out:cubic-bezier(0.16,1,0.3,1)}.ds-sheet{position:relative;width:420px;background:var(--sheet);border:1.5px solid var(--line);padding:18px}.ds-zone{position:absolute;top:0;left:18px;right:18px;height:18px;display:grid;grid-template-columns:repeat(8,minmax(0,1fr));font-family:var(--font-caps);font-weight:600;font-size:.5625rem;line-height:1;color:var(--ink-2);user-select:none}.ds-zone span{display:grid;place-items:center}.ds-zone span+span{border-left:1px solid var(--line)}.ds-field{height:72px;border:1px solid var(--line)}"
     }
   ],
   "narrative": {
-    "northStar": "The Shadow Board",
-    "overview": "The page is a lean-manufacturing 5S shadow board cut as two-layer tool foam: a black top layer where every object hangs from its own peg inside a pocket cut a hand's width larger than the object, with safety yellow showing through every cut. Nothing floats in space; everything has a cut home, and the home is visible the moment the object leaves it. The board says \"this person keeps a tidy shop and makes real tools\" without a single adjective.\n\nTwo material registers divide every surface. Anything **painted on the board** (the name, section headings, pocket labels, location codes, step numerals) is stencil lettering. Anything **printed and mounted** (headline, bio, label-maker tape, laminated plates, cards) is Archivo. The silhouettes are cut-outs, not painted outlines: the yellow under-layer is the pocket, and anything painted inside it is the black of the foam.\n\nMotion obeys gravity only. Objects settle onto their hooks once on load, lift off with a small swing when hovered or focused, and fall back. Nothing slides, fades, or scrolls into view. The board rejects gradients, glass, icon tiles, and the centered avatar-bio-button-card stack.",
+    "northStar": "The Cyanotype Sheet",
+    "overview": "The page is one engineering drawing sheet, printed as a cyanotype. The Prussian blue runs edge to edge; everything drawn on it (the outer and inner borders, the zone strip, the view frames, the table rules, the title-block cells, every letter) is white line work, as if the sheet had been exposed from a single negative. There is no second colour on the sheet itself. Depth is never implied; the sheet is flat paper and the only things that sit \"on\" it are the pieces of evidence pinned into their frames.\n\nTwo kinds of lettering divide the sheet. Anything a drafter would letter by hand (the name in the title block, cell labels, zone glyphs, balloon numbers, exit labels, the ruled section heads, the table head, the note and step numerals) is Barlow Semi Condensed in capitals. Anything read as prose (the headline, the notes, view names and their one-liners, the table body, the button) is Barlow in sentence case. The condensed caps carry the drawing-sheet idiom; the prose face keeps it readable at a peer's pace.\n\nEvidence keeps its own colour. Screenshots sit in their white frames at full colour, the only non-blue, non-white material on the page. The portrait is the one exception: it takes the cyanotype process (greyscale, screened onto the blue cell) so the drafter's face belongs to the sheet rather than being pinned to it. Motion is a single develop on load; nothing slides, scrolls in, or fades by section. The sheet refuses the centred avatar, bio, button and project-card stack, and it refuses the previous yellow-and-black shop floor entirely.",
     "keyCharacteristics": [
-      "A flat foam-black field with no gradient or texture.",
-      "Safety-yellow cut pockets with generous 16px corners hold every object.",
-      "Two type registers: stencil for paint, Archivo for print, never mixed within one object.",
-      "White laminate and label tape are the only light surfaces on the board.",
-      "One red, reserved for the live element and live states.",
-      "Gravity-only motion: hang, settle, lift."
+      "A single Prussian blue ground with no gradient, texture, or tonal layering.",
+      "Every structural element is a white line: 1.5px outer border, 1px everything else, 55% white for secondary rules.",
+      "One solid white cell on the whole sheet: the Connect on LinkedIn button.",
+      "Two faces: Barlow Semi Condensed caps for drafting lettering, Barlow for prose.",
+      "True-colour evidence in white frames; the portrait alone takes the blue process.",
+      "Zoned border (1 to 8 across, A to D down) and a title block flush with the inner border.",
+      "One authored motion, the develop; one signature interaction, the inspection."
     ],
     "rules": [
       {
-        "name": "The One Red Rule",
-        "body": "Red marks the live element and live states only: the primary exit, hover on an action, focus. Never decoration, never a second accent, never a heading.",
+        "name": "The Blue or White Rule",
+        "body": "Every element the page draws is either the blue or a white. There is no accent, no second hue, no grey that is not a transparency of white. If a new surface needs emphasis, it gets more line, not more colour.",
         "section": "colors"
       },
       {
-        "name": "The Paint-Through Rule",
-        "body": "Lettering inside a pocket is always the board color (`--on-pocket`): foam black on the yellow, never white or grey.",
+        "name": "The One White Cell Rule",
+        "body": "The sheet carries exactly one solid white fill at rest: the primary exit (Connect on LinkedIn). A second filled cell would make it a form, not a drawing. Balloons may fill white only while inspected.",
         "section": "colors"
       },
       {
-        "name": "The Laminate Never Inverts Rule",
-        "body": "Printed objects (plates, tape, cards) keep white stock and black ink, even on the black board. They never take the board's colors.",
+        "name": "The Evidence Keeps Its Colour Rule",
+        "body": "Screenshots in view frames are shown in their own colour, untreated. The portrait alone takes the cyanotype process (greyscale, screen blend onto the blue). Never tint evidence blue and never show the portrait in colour.",
         "section": "colors"
       },
       {
-        "name": "The Paint or Print Rule",
-        "body": "Ask of every piece of text: is it painted on the board or printed and mounted? Painted is Big Shoulders Stencil 800, uppercase. Printed is Archivo. There is no third face and no stencil body copy.",
+        "name": "The Lettered or Read Rule",
+        "body": "Ask of every string: would a drafter letter it on the sheet, or is it read as prose? Lettered is Barlow Semi Condensed, uppercase, tracked. Read is Barlow, sentence case. No Semi Condensed sentence, no Barlow label.",
         "section": "typography"
       },
       {
-        "name": "The Squeeze, Don't Swap Rule",
-        "body": "Condensed Archivo comes from `font-stretch` (75% for tape and plates, 87.5% for the headline), not from a separate condensed family.",
+        "name": "The Numeral Rule",
+        "body": "Every number that indexes something on the sheet (notes, balloons, table steps, zone glyphs) is Semi Condensed 700 or 600. Numbers inside prose stay in Barlow.",
         "section": "typography"
       },
       {
-        "name": "The Hand's Width Rule",
-        "body": "Every silhouette is the object plus a fixed painted margin (`pocket-pad`: 24px, 20px at ≤68rem, 16px at ≤40rem) on top and sides, with the label strip below. The margin also sizes the hook, which spans exactly from the pocket's top edge to the plate.",
-        "section": "layout"
-      },
-      {
-        "name": "The Gravity Rule",
-        "body": "Shadows answer to gravity: they appear only under a hung or stuck object and lengthen only when that object is lifted. No ambient glows, no floating cards at rest, no hard offset shadows.",
+        "name": "The No Shadow Rule",
+        "body": "Nothing on the sheet casts a shadow, at rest or in any state. Hover and focus change fill and underline, never elevation.",
         "section": "elevation"
-      },
-      {
-        "name": "The Soft Cut, Hard Object Rule",
-        "body": "The cut or painted home is round; the object in it is almost square. Never round a plate to match its pocket.",
-        "section": "shapes"
       }
     ],
     "dos": [
-      "**Do** give every new object its own pocket, slot, hook, and location code, continuing the sequence (A4, A5…).",
-      "**Do** decide paint or print before setting any text: Big Shoulders Stencil 800 uppercase if painted on the board, Archivo if printed.",
-      "**Do** keep red to the one live plate, hover on actions, and the 3px focus ring (6px offset).",
-      "**Do** keep laminated plates and tape white with black ink on the black board.",
-      "**Do** keep all motion as gravity: settle, lift (-24px with swing), fall back; swap it for a red pocket under reduced motion.",
-      "**Do** recompute the rack column split whenever a screenshot's aspect ratio changes, so paired plates share one height."
+      "**Do** draw every new container as a 1px line-white outline on the blue (1.5px only for the sheet's outer border); use hairline (55% white) for rules that subdivide an object.",
+      "**Do** decide lettered or read before setting any text: Barlow Semi Condensed uppercase and tracked if a drafter would letter it, Barlow sentence case if it is read.",
+      "**Do** keep evidence in true colour inside a 5px-inset white frame, and give every view a balloon number, a name, one line, and an exit word with the outbound arrow.",
+      "**Do** give every title-block cell a field label in the top-left corner, and keep the block flush with the inner border.",
+      "**Do** keep all motion to the develop on load and 0.2s fill or underline transitions with cubic-bezier(0.16, 1, 0.3, 1).",
+      "**Do** keep the focus ring 2px line white at 4px offset, square."
     ],
     "donts": [
-      "**Don't** use gradients, glass, or textures on the board, or add any accent beyond the yellow and the one red.",
-      "**Don't** put icons in tiles or badges. The only icon is a small inline outbound arrow on tape and the live plate.",
-      "**Don't** float cards or add shadows to silhouettes, text, or the board. Only hung plates and stuck tape cast shadows.",
-      "**Don't** slide, fade, or scroll-animate anything in.",
-      "**Don't** set body copy, descriptions, or buttons in the stencil face, or set painted names and headings in Archivo.",
-      "**Don't** fall back to the centered avatar, bio, button, and project-card stack."
+      "**Don't** add a second colour, a gradient, glass, texture, or any grey that is not a transparency of white.",
+      "**Don't** add a second solid white fill at rest; the Connect on LinkedIn cell is the only one.",
+      "**Don't** cast shadows on anything, or lift, scale, or slide anything on hover.",
+      "**Don't** round corners; the balloon circle is the only curve.",
+      "**Don't** tint screenshots blue, or show the portrait in colour.",
+      "**Don't** set a sentence in Barlow Semi Condensed, set a label in Barlow, or introduce a third face or a system display face.",
+      "**Don't** fade or slide sections in on scroll, or stagger anything; the sheet develops once, whole.",
+      "**Don't** fall back to the centred avatar, bio, button, and project-card stack."
     ]
   }
 }

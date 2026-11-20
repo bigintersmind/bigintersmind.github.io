@@ -25,23 +25,27 @@ a:focus-visible { outline: 2px solid var(--rust); outline-offset: 5px; }
   margin-inline: auto;
   padding: clamp(1.5rem, 4vw, 3.75rem) clamp(1.25rem, 5vw, 3rem) 4rem;
 }
+/* The letterhead is inset by the portrait's width plus the gap, and the identity
+   row is pulled back over that inset. A wrapped LinkedIn link then starts at the
+   inset, directly under the name. */
 .letterhead {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 0.8rem 1rem;
-  padding-bottom: 1.25rem;
-  border-bottom: 1px solid var(--ink);
-}
-.portrait { width: 3.75rem; height: 4.25rem; object-fit: cover; }
-.byline {
-  flex: 1 1 0;
+  --portrait: 3.75rem;
+  --gap: 1rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 0.8rem 1rem;
+  gap: 0.8rem var(--gap);
+  padding: 0 0 1.25rem calc(var(--portrait) + var(--gap));
+  border-bottom: 1px solid var(--ink);
 }
+.identity {
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+  margin-left: calc(-1 * (var(--portrait) + var(--gap)));
+}
+.portrait { width: var(--portrait); height: 4.25rem; object-fit: cover; }
 h1 { font-size: 2rem; line-height: 1.2; }
 .roles { margin-top: 0.15rem; font: 0.85rem/1.35 var(--sans); }
 .contact, .action { color: var(--rust); font: 600 0.85rem/1.4 var(--sans); }

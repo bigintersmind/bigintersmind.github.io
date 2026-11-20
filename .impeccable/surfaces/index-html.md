@@ -26,7 +26,7 @@ The whole of ivanlay.com: one page. Visitor mode: **Persuade**. A peer decides t
 
 ## Direction contract
 
-The homepage is a personal letter on warm paper. Ivan’s photo, name, roles and LinkedIn link form a compact letterhead. A large serif opening line leads into his bio. Each ruled entry links to a project and includes its name, description, and action.
+The homepage is a personal letter on cool off-white paper. Ivan’s photo, name, roles and LinkedIn link form a compact letterhead. A large serif opening line leads into his bio. Each ruled entry links to a project and includes its name, description, and action.
 
 ## Unresolved
 

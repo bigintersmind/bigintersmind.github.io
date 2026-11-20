@@ -1,9 +1,9 @@
 :root {
   color-scheme: light;
-  --paper: #f5f1e6;
+  --paper: #f4f6f6;
   --ink: #302f25;
   --rust: #813426;
-  --rule: #bcb5a6;
+  --rule: #b9bfbf;
   --sans: "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -42,7 +42,7 @@ a:focus-visible { outline: 2px solid var(--rust); outline-offset: 5px; }
   justify-content: space-between;
   gap: 0.8rem 1rem;
 }
-h1 { font-size: 1.75rem; line-height: 1.2; }
+h1 { font-size: 2rem; line-height: 1.2; }
 .roles { margin-top: 0.15rem; font: 0.85rem/1.35 var(--sans); }
 .contact, .action { color: var(--rust); font: 600 0.85rem/1.4 var(--sans); }
 .contact { padding-block: 0.6rem; }
@@ -52,7 +52,7 @@ h1 { font-size: 1.75rem; line-height: 1.2; }
   max-width: 23ch;
   margin: clamp(2rem, 4.5vw, 3.5rem) 0 1.3rem;
   font-size: clamp(2.5rem, 6vw, 4.25rem);
-  line-height: 1.04;
+  line-height: 1.3;
   letter-spacing: -0.045em;
   text-wrap: balance;
 }
@@ -61,7 +61,8 @@ h1 { font-size: 1.75rem; line-height: 1.2; }
 .bio p + p { margin-top: 0.75em; }
 .projects { margin-top: clamp(2rem, 5vw, 3.75rem); }
 h2 { margin-bottom: 0.65rem; font-size: 1.55rem; }
-.project-list { list-style: none; padding: 0; border-bottom: 1px solid var(--rule); }
+.project-list { list-style: none; padding: 0; }
+.project-list li:last-child .project { border-bottom: 1px solid var(--rule); }
 .project {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.65fr) 5rem;

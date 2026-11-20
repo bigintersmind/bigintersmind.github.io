@@ -7,7 +7,7 @@
       "paper": {
         "role": "neutral",
         "displayName": "Paper",
-        "canonical": "#F5F1E6"
+        "canonical": "#F4F6F6"
       },
       "ink": {
         "role": "neutral",
@@ -22,7 +22,7 @@
       "rule": {
         "role": "neutral",
         "displayName": "Rule",
-        "canonical": "#BCB5A6"
+        "canonical": "#B9BFBF"
       }
     },
     "typographyMeta": {

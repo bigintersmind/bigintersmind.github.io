@@ -29,7 +29,7 @@ An ops leader who builds. Ivan runs operations and also ships the automation him
 
 ## Operating Context
 
-- A single page. Every action leaves the site: LinkedIn, or a project on its own domain.
+- A single page. Every action leaves the page: LinkedIn, or a project on its own page.
 - Projects currently linked:
   - DiceWars JS: https://ivanlay.com/dicewarsjs/ (browser game, "Play")
   - Connections Sorter: https://connections-sorter.com/ (web tool, "Open")
@@ -45,16 +45,16 @@ An ops leader who builds. Ivan runs operations and also ships the automation him
 ## Brand Commitments
 
 - Name: **Ivan Lay**. Domain: **ivanlay.com**. GitHub handle: **bigintersmind**. LinkedIn: https://www.linkedin.com/in/ivanlay/
-- **Voice: conversational first person.** Ivan talks to a peer in plain language ("I run ops, and I build the tools my team uses"). The current bio's résumé register is out of step with this and should move to it. The projects heading ("A few things I've built") already matches.
+- **Voice: conversational first person.** Ivan talks to a peer in plain language ("I run ops, and I build the tools my team uses"). The bio and the projects heading ("A few things I've built") both match.
 - Professional titles in the current copy: "Operations Manager" and "AI & Automation Leader" (Ivan moved from support operations into AI and business operations in 2026). These are existing facts, not a mandated tagline.
-- None of the current visuals (LinkedIn-style blue, Inter, centered card layout) have been made binding.
+- The current visuals, recorded in `DESIGN.md`, have not been made binding.
 - **Must not feel:** corporate (a LinkedIn profile or a consultancy's About page), like a dev portfolio (terminal prompts, hacker dark mode, code as decoration), cute (playful enough that peers doubt the ops leadership), or showy (motion or scroll effects that get between the visitor and the content).
 
 ## Evidence on Hand
 
 - `ivans-head.png`: the current photo. 200×200px, cropped from an event photo with backdrop text partly visible. It's a stand-in: Ivan is finding a higher-quality **tight headshot** (face and shoulders) to drop in, so design for that rather than for the 200px file.
-- Three live projects with one-line descriptions (see Operating Context).
-- Existing claims, kept general: "12+ years" in support operations; AI and automation enablement; mentoring teams; process optimization that delivered "measurable capacity gains".
+- Three live projects, listed in Operating Context, each with a one-line description in `index.html`.
+- Existing claims, kept general: "12+ years" in support operations; bringing AI and automation into high-profile technical teams; mentoring people; untangling complicated problems; tuning processes until the team has real capacity to spare and customers feel the difference.
 - **Must not be added or fabricated:** employer names, specific metrics or numbers, testimonials, endorsements, logos, press. Ivan chose to keep these general. Add them only if he supplies them later.
 
 ## Product Principles

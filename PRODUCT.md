@@ -29,7 +29,7 @@ An ops leader who builds. Ivan runs operations and also ships the automation him
 
 ## Operating Context
 
-- A single page. Every action leaves the site: LinkedIn, or a project on its own domain.
+- A single page. Every action leaves the page: LinkedIn, or a project on its own page.
 - Projects currently linked:
   - DiceWars JS: https://ivanlay.com/dicewarsjs/ (browser game, "Play")
   - Connections Sorter: https://connections-sorter.com/ (web tool, "Open")
@@ -45,9 +45,9 @@ An ops leader who builds. Ivan runs operations and also ships the automation him
 ## Brand Commitments
 
 - Name: **Ivan Lay**. Domain: **ivanlay.com**. GitHub handle: **bigintersmind**. LinkedIn: https://www.linkedin.com/in/ivanlay/
-- **Voice: conversational first person.** Ivan talks to a peer in plain language ("I run ops, and I build the tools my team uses"). The current bio's résumé register is out of step with this and should move to it. The projects heading ("A few things I've built") already matches.
+- **Voice: conversational first person.** Ivan talks to a peer in plain language ("I run ops, and I build the tools my team uses"). The bio and the projects heading ("A few things I've built") both match.
 - Professional titles in the current copy: "Operations Manager" and "AI & Automation Leader" (Ivan moved from support operations into AI and business operations in 2026). These are existing facts, not a mandated tagline.
-- None of the current visuals (LinkedIn-style blue, Inter, centered card layout) have been made binding.
+- The current visuals, recorded in `DESIGN.md`, have not been made binding.
 - **Must not feel:** corporate (a LinkedIn profile or a consultancy's About page), like a dev portfolio (terminal prompts, hacker dark mode, code as decoration), cute (playful enough that peers doubt the ops leadership), or showy (motion or scroll effects that get between the visitor and the content).
 
 ## Evidence on Hand

@@ -33,18 +33,18 @@
       "label": {
         "displayName": "Action",
         "purpose": "LinkedIn and project actions."
+      },
+      "note": {
+        "displayName": "Note",
+        "purpose": "Roles and project descriptions."
       }
     },
     "motion": [],
     "shadows": [],
     "breakpoints": [
       {
-        "name": "Stack project entries",
+        "name": "Move project descriptions below name and action",
         "value": "35rem"
-      },
-      {
-        "name": "Wrap the letterhead link",
-        "value": "26rem"
       }
     ]
   },

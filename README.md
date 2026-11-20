@@ -14,11 +14,11 @@ Then open http://localhost:8000. Opening `index.html` directly in a browser also
 
 ## Replace the photo
 
-Save a square headshot of at least 800×800 over `ivans-head.png`. The letterhead crops the photo to a small portrait, so a tight face-and-shoulders crop works best. If you use a different filename or format, update the `src` of the `portrait` image in `index.html` and set its `width` and `height` to the file's pixel size.
+Save a tight face-and-shoulders headshot over `ivans-head.png`. The letterhead shows it small and slightly taller than wide, cropped to fill from the center, so a square or slightly taller photo works. 800×800 is plenty. If you use a different filename or format, update the `src` of the `portrait` image in `index.html` and set its `width` and `height` to the file's pixel size.
 
 ## Add or swap a project
 
-Add a list item to `.project-list` in `index.html`, following the structure of an existing project. Give its heading and action unique IDs and reference both with the link’s `aria-labelledby`.
+Add a list item to `.project-list` in `index.html`, following the structure of an existing project. Give its heading, description, and action unique IDs. Reference the heading and action with the link’s `aria-labelledby` and the description with its `aria-describedby`. Keep the action label short: on wide screens it sits in a fixed `5rem` column and does not wrap.
 
 ## Deployment
 
@@ -30,7 +30,7 @@ GitHub Pages builds from the root of `main` and serves it at ivanlay.com, the do
 index.html       the page
 style.css        all styles; color tokens at the top
 favicon.svg
-img/             project screenshots and their provenance sidecars
+img/             project screenshots and their provenance sidecars; the current page doesn’t use them
 ivans-head.png   headshot (a stand-in until the new photo)
 PRODUCT.md       audience, positioning, voice, and claims the page may make
 DESIGN.md        the visual system

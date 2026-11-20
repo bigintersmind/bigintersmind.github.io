@@ -28,16 +28,24 @@ a:focus-visible { outline: 2px solid var(--rust); outline-offset: 5px; }
 .letterhead {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.8rem 1rem;
   padding-bottom: 1.25rem;
   border-bottom: 1px solid var(--ink);
 }
 .portrait { width: 3.75rem; height: 4.25rem; object-fit: cover; }
+.byline {
+  flex: 1 1 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem 1rem;
+}
 h1 { font-size: 1.75rem; line-height: 1.2; }
 .roles { margin-top: 0.15rem; font: 0.85rem/1.35 var(--sans); }
 .contact, .action { color: var(--rust); font: 600 0.85rem/1.4 var(--sans); }
-.contact { margin-left: auto; padding-block: 0.6rem; }
+.contact { padding-block: 0.6rem; }
 .contact:hover, .project:hover .action { text-decoration-thickness: 2px; }
 
 .lede {
@@ -56,7 +64,7 @@ h2 { margin-bottom: 0.65rem; font-size: 1.55rem; }
 .project-list { list-style: none; padding: 0; border-bottom: 1px solid var(--rule); }
 .project {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1.65fr) 4rem;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.65fr) 5rem;
   align-items: baseline;
   gap: 0.25rem 1.25rem;
   padding-block: 1rem;
@@ -65,14 +73,10 @@ h2 { margin-bottom: 0.65rem; font-size: 1.55rem; }
 }
 .project h3 { font-size: 1.25rem; line-height: 1.25; }
 .project p { font: 0.95rem/1.5 var(--sans); }
-.action { justify-self: end; text-decoration: underline; text-underline-offset: 0.22em; }
+.action { justify-self: end; white-space: nowrap; text-decoration: underline; text-underline-offset: 0.22em; }
 
 @media (max-width: 35rem) {
   .project { grid-template-columns: 1fr auto; }
   .project p { grid-column: 1 / -1; grid-row: 2; }
   .action { grid-column: 2; grid-row: 1; }
-}
-@media (max-width: 26rem) {
-  .letterhead { column-gap: 0.8rem; }
-  .contact { margin-left: 4.55rem; }
 }

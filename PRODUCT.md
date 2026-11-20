@@ -53,8 +53,8 @@ An ops leader who builds. Ivan runs operations and also ships the automation him
 ## Evidence on Hand
 
 - `ivans-head.png`: the current photo. 200×200px, cropped from an event photo with backdrop text partly visible. It's a stand-in: Ivan is finding a higher-quality **tight headshot** (face and shoulders) to drop in, so design for that rather than for the 200px file.
-- Three live projects with one-line descriptions (see Operating Context).
-- Existing claims, kept general: "12+ years" in support operations; AI and automation enablement; mentoring teams; process optimization that delivered "measurable capacity gains".
+- Three live projects, listed in Operating Context, each with a one-line description in `index.html`.
+- Existing claims, kept general: "12+ years" in support operations; bringing AI and automation into high-profile technical teams; mentoring people; untangling complicated problems; tuning processes until the team has real capacity to spare and customers feel the difference.
 - **Must not be added or fabricated:** employer names, specific metrics or numbers, testimonials, endorsements, logos, press. Ivan chose to keep these general. Add them only if he supplies them later.
 
 ## Product Principles
